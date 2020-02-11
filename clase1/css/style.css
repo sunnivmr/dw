@@ -14,5 +14,38 @@ body {
 .header {
     width: 950px;
     height: 105px;
-    background-color: white;
+}
+
+.colores {
+    width: 950px;
+    height: 10px;
+}
+
+.colores > div {
+    height: 100%;
+    float: left;
+}
+
+.negro1 {
+    width: 320px;
+}
+
+.rojo1 {
+    width: 430px;
+}
+
+.negro2 {
+    width: 170px;
+}
+
+.rojo2 {
+    width: 30px;
+}
+
+.negro1, .negro2 {
+    background-color: black;
+}
+
+.rojo1, .rojo2 {
+    background-color: darkred;
 }
