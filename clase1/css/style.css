@@ -1,11 +1,18 @@
+/* cmd + e para abrir la paleta de color */
+
 body {
     background-color: lightgray;
 }
 
 #container {
-    
+    width: 950px;
+    height: 1500px;
+    background-color: white;
+    margin: auto;
 }
 
 .header {
-    
+    width: 950px;
+    height: 105px;
+    background-color: white;
 }
