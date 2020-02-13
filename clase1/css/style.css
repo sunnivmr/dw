@@ -42,16 +42,21 @@ body {
     width: 30px;
 }
 
-.negro1, .negro2 {
+.negro1,
+.negro2 {
     background-color: black;
 }
 
 .logo {
+    margin: 20px;
+}
+
+.logo img {
     width: 229px;
     height: 65px;
-    margin: 20px;
-    background-color: aqua;
 }
-.rojo1, .rojo2 {
+
+.rojo1,
+.rojo2 {
     background-color: #d00808;
 }
