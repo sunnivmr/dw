@@ -77,7 +77,12 @@ body {
     height: 30px;
     background-color: #262626;
     float: left;
+    margin-left: 5px;
+}
+
+.boton h3 {
     color: white;
     font-size: 12px;
-    margin-right: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
