@@ -17,44 +17,50 @@ body {
 }
 
 /* Colores */
-.colores {
+.colors {
     width: 950px;
     height: 10px;
 }
 
-.colores > div {
+.colors > div {
     height: 100%;
     float: left;
 }
 
-.negro1 {
+.black1 {
     width: 320px;
 }
 
-.rojo1 {
+.red1 {
     width: 430px;
 }
 
-.negro2 {
+.black2 {
     width: 170px;
 }
 
-.rojo2 {
+.red2 {
     width: 30px;
 }
 
-.negro1,
-.negro2 {
+.black1,
+.black2 {
     background-color: black;
 }
 
-.rojo1,
-.rojo2 {
+.red1,
+.red2 {
     background-color: #d00808;
 }
 
 
-/* Logo */
+/* White-stripe and Logo */
+.white-stripe {
+    width: 950px;
+    height: 98px;
+    background-color: #fff;
+}
+
 .logo {
     margin: 20px;
 }
@@ -72,7 +78,7 @@ body {
     background-color: #1c1c1c;
 }
 
-.boton {
+.button {
     width: 150px;
     height: 30px;
     background-color: #262626;
@@ -81,7 +87,7 @@ body {
     border-right: 1px solid #767676;
 }
 
-.boton h3 {
+.button h3 {
     color: white;
     font-size: 12px;
     font-family: 'Open Sans', sans-serif;
