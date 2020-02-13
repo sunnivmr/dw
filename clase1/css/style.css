@@ -46,6 +46,12 @@ body {
     background-color: black;
 }
 
+.logo {
+    width: 229px;
+    height: 65px;
+    margin: 20px;
+    background-color: aqua;
+}
 .rojo1, .rojo2 {
-    background-color: darkred;
+    background-color: #d00808;
 }
