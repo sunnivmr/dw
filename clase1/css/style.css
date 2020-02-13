@@ -16,6 +16,7 @@ body {
     height: 105px;
 }
 
+/* Colores */
 .colores {
     width: 950px;
     height: 10px;
@@ -47,6 +48,13 @@ body {
     background-color: black;
 }
 
+.rojo1,
+.rojo2 {
+    background-color: #d00808;
+}
+
+
+/* Logo */
 .logo {
     margin: 20px;
 }
@@ -56,7 +64,20 @@ body {
     height: 65px;
 }
 
-.rojo1,
-.rojo2 {
-    background-color: #d00808;
+/* Menu */
+
+#menu {
+    width: 950px;
+    height: 30px;
+    background-color: #1c1c1c;
+}
+
+.boton {
+    width: 150px;
+    height: 30px;
+    background-color: #262626;
+    float: left;
+    color: white;
+    font-size: 12px;
+    margin-right: 5px;
 }
