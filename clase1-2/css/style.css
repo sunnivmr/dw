@@ -103,7 +103,8 @@ body {
 .slider {
     width: 950px;
     height: 280px;
-    background-color: white;
+    background-color: darkgray;
+    margin-bottom: 30px;
 }
 
 /* Notices */
