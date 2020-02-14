@@ -10,12 +10,11 @@ body {
     height: 1500px;
     background-color: white;
     margin: auto;
-    display: grid;
 }
 
 .header {
     width: 950px;
-    height: 105px;
+    height: 150px;
 }
 
 /* Colores */
