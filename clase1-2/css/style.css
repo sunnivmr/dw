@@ -64,11 +64,8 @@ body {
 .logo {
     width: 229px;
     height: 65px;
-    margin: 20px;
+    margin-left: 20px;
 }
-
-.logo img {}
-
 
 /* Tiny-menu */
 .tiny-menu {
@@ -76,6 +73,7 @@ body {
 }
 
 .tiny-menu p {
+    margin: 0px;
     color: gray;
     display: inline-block;
     font-size: 10px;
