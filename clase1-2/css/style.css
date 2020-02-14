@@ -10,6 +10,7 @@ body {
     height: 1500px;
     background-color: white;
     margin: auto;
+    display: grid;
 }
 
 .header {
@@ -57,19 +58,18 @@ body {
 
 /* White-stripe and Logo */
 .white-stripe {
-    width: 950px;
-    height: 200px;
+    padding: 5px;
     background-color: #fff;
 }
 
 .logo {
+    width: 229px;
+    height: 65px;
     margin: 20px;
 }
 
-.logo img {
-    width: 229px;
-    height: 65px;
-}
+.logo img {}
+
 
 /* Tiny-menu */
 .tiny-menu {
@@ -94,7 +94,7 @@ body {
     width: 150px;
     height: 30px;
     background-color: #262626;
-    float: left;
+    display: inline-block;
     border-left: 3px solid #000;
     border-right: 1px solid #767676;
 }
