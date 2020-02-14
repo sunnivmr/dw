@@ -131,7 +131,8 @@ body {
 }
 
 .notice-text p {
-    font-size: 12px;
+    color: #404040;
+    font-size: 11px;
 }
 
 .notice-text h5 {
@@ -141,12 +142,19 @@ body {
 /* Banners */
 .banners {
     float: left;
+    margin-left: 20px;
+    display: grid;
+    grid-gap: 40px;
 }
 
 .individual-banner {
-    padding: 0px 12px 12px;
+    position: relative;
+    color: white;
 }
 
 .individual-banner h5 {
     margin: 0px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
 }
