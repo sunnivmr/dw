@@ -72,12 +72,19 @@ body {
 
 /* Tiny-menu */
 .tiny-menu {
-    margin: auto;
+    text-align: center;
 }
 
 .tiny-menu p {
-    display: inline;
+    color: gray;
+    display: inline-block;
     font-size: 10px;
+}
+
+.tiny-menu .hover:hover {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 
