@@ -2,6 +2,7 @@
 
 body {
     background-color: lightgray;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #container {
@@ -97,8 +98,55 @@ body {
     padding-top: 8px;
 }
 
+/* Slider */
+
 .slider {
     width: 950px;
     height: 280px;
     background-color: white;
+}
+
+/* Notices */
+.notices {
+    float: left;
+    padding: 0 20px;
+    display: grid;
+    width: 75%;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    border-right: 1px dotted grey;
+}
+
+.individual-notice {
+    background-color: #F7F7F7;
+    border-bottom: 2px solid grey;
+}
+
+.individual-notice img {
+    width: 100%;
+}
+
+.notice-text {
+    padding: 0px 10px;
+}
+
+.notice-text p {
+    font-size: 12px;
+}
+
+.notice-text h5 {
+    margin: 0px;
+}
+
+/* Banners */
+.banners {
+    float: left;
+}
+
+.individual-banner {
+    padding: 0px 12px 12px;
+}
+
+.individual-banner h5 {
+    margin: 0px;
 }
