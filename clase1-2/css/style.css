@@ -58,7 +58,7 @@ body {
 /* White-stripe and Logo */
 .white-stripe {
     width: 950px;
-    height: 98px;
+    height: 200px;
     background-color: #fff;
 }
 
@@ -70,6 +70,17 @@ body {
     width: 229px;
     height: 65px;
 }
+
+/* Tiny-menu */
+.tiny-menu {
+    margin: auto;
+}
+
+.tiny-menu p {
+    display: inline;
+    font-size: 10px;
+}
+
 
 /* Menu */
 
