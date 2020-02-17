@@ -1,0 +1,97 @@
+body {
+    background-color: rgba(145, 145, 145, 1)
+}
+
+#container {
+    width: 950px;
+    height: 1500px;
+    margin: auto;
+}
+
+#container #cabecera {
+    width: 950px;
+    height: 110px;
+}
+
+#container #cabecera .franja {
+    width: 950px;
+    height: 12px;
+}
+
+#container #cabecera .franja .color1 {
+    width: 350px;
+    height: 12px;
+    background-color: #101010;
+    float: left;
+
+}
+
+#container #cabecera .franja .color2 {
+    width: 450px;
+    height: 12px;
+    background-color: #ff0000;
+    float: left;
+}
+
+#container #cabecera .franja .color3 {
+    width: 100px;
+    height: 12px;
+    background-color: #101010;
+    float: left;
+}
+
+#container #cabecera .franja .color4 {
+    width: 50px;
+    height: 12px;
+    background-color: #ff0000;
+    float: left;
+}
+
+#container #cabecera .franjablanca {
+    width: 950px;
+    height: 98px;
+    background-color: #fff;
+}
+
+#container #cabecera .franjablanca .logo {
+    width: 229px;
+    height: 65px;
+    padding-top: 17px;
+    padding-left: 20px;
+}
+
+#container #cabecera .franjablanca .logo img {
+    width: 229px;
+    height: 65px;
+}
+
+#container #menu {
+    width: 950px;
+    height: 30px;
+    background-color: #0d0d0d;
+}
+
+#container #menu .boton {
+    width: 158px;
+    height: 30px;
+    background-color: #2c2c2c;
+    float: left;
+    border-left: 3px solid #000;
+    border-right: 1px solid #767676;
+}
+
+#container #menu .boton h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: aliceblue;
+    font-weight: 400;
+    padding-top: 7px;
+    margin-top: 0px;
+    padding-left: 10px;
+}
+
+.slider {
+    width: 950px;
+    height: 280px;
+    background-color: aliceblue;
+}
