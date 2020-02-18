@@ -192,7 +192,7 @@ body {
 /* Videos y agenda */
 .videos-agenda {
     color: #5c5c5c;
-    height: 400px;
+    height: 450px;
     border-bottom: 1px solid black;
 }
 
@@ -251,12 +251,12 @@ body {
 .video-text p {
     font-size: 11px;
     margin: 0;
-    padding: 2px;
+    padding: 2px 2px 2px 5px;
 }
 
 /* Agenda */
 .agenda {
-    width: 20%;
+    width: 21.46%;
     height: 100%;
     padding: 0 20px;
     background-color: #ebebeb;
@@ -303,4 +303,22 @@ body {
 
 .individual-agenda p {
     font-size: 10px;
+}
+
+/* Logos y redes sociales */
+.logos-social-media {
+    background-color: #A8B0B2;
+    height: 200px;
+}
+
+.logos-social-media div {
+    padding: 20px;
+}
+
+.logos {
+    width: 75%;
+}
+
+.social-media {
+    width: 25%;
 }
