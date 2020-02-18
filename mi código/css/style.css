@@ -131,7 +131,7 @@ body {
 }
 
 /* Notices */
-.notices {
+.notice-grid {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
@@ -140,6 +140,10 @@ body {
     width: 75%;
     height: 400px;
     border-right: 1px dotted grey;
+}
+
+.notices h6 {
+    align-content: right;
 }
 
 .individual-notice {
@@ -253,7 +257,7 @@ body {
 }
 
 .individual-agenda {
-    width: 100%;
+    padding: 10px;
 }
 
 .individual-agenda * {
