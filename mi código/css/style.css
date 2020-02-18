@@ -187,11 +187,10 @@ body {
 
 /* Videos y agenda */
 .videos-agenda {
-    height: auto;
+    height: 500px;
 }
 
 .videos-agenda * {
-    height: 100%;
     float: left;
 }
 
@@ -201,12 +200,6 @@ body {
     background-color: #F7F7F7;
     border-right: 1px solid grey;
     padding: 0 20px;
-}
-
-.videos h5,
-.videos-grid {
-    margin-left: 20px;
-    margin: right: 20px;
 }
 
 .videos-grid {
@@ -240,7 +233,28 @@ body {
 
 /* Agenda */
 .agenda {
-    width: 25%;
+    width: 20%;
     height: 500px;
+    padding: 0 20px;
     background-color: pink;
+}
+
+.agenda h5 {
+    position: relative;
+    right: 0;
+}
+
+.agenda-grid {
+    display: grid;
+    background-color: aliceblue;
+    border-radius: 3%;
+    width: 100%;
+}
+
+.individual-agenda {
+    width: 100%;
+}
+
+.individual-agenda p {
+    font-size: 10px;
 }
