@@ -197,9 +197,10 @@ body {
 
 /* Videos */
 .videos {
-    width: 74%;
+    width: 70%;
     background-color: #F7F7F7;
     border-right: 1px solid grey;
+    padding: 0 20px;
 }
 
 .videos h5,
@@ -210,9 +211,12 @@ body {
 
 .videos-grid {
     display: grid;
-    position: relative;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
+}
+
+.individual-video {
+    position: relative;
 }
 
 .individual-video img {
@@ -223,10 +227,15 @@ body {
     position: absolute;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.75);
-    padding: 2px;
     color: white;
+    height: 20%;
+    width: 100%;
+}
+
+.video-text p {
     font-size: 11px;
-    height: 20px;
+    margin: 0;
+    padding: 2px;
 }
 
 /* Agenda */
