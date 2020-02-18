@@ -210,6 +210,7 @@ body {
 
 .individual-video {
     position: relative;
+    margin-bottom: 20px;
 }
 
 .individual-video img {
@@ -236,7 +237,7 @@ body {
     width: 20%;
     height: 500px;
     padding: 0 20px;
-    background-color: pink;
+    background-color: #ebebeb;
 }
 
 .agenda h5 {
@@ -246,13 +247,17 @@ body {
 
 .agenda-grid {
     display: grid;
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 3%;
     width: 100%;
 }
 
 .individual-agenda {
     width: 100%;
+}
+
+.individual-agenda * {
+    margin: 0;
 }
 
 .individual-agenda p {
