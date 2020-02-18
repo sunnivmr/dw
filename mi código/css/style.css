@@ -132,13 +132,13 @@ body {
 
 /* Notices */
 .notices {
-    float: left;
-    padding: 0 20px;
     display: grid;
-    width: 75%;
-    height: 400px;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
+    float: left;
+    padding: 0 20px;
+    width: 75%;
+    height: 400px;
     border-right: 1px dotted grey;
 }
 
@@ -187,8 +187,7 @@ body {
 
 /* Videos y agenda */
 .videos-agenda {
-    height: 500px;
-    background-color: #f8f8f8;
+    height: auto;
 }
 
 .videos-agenda * {
@@ -198,18 +197,41 @@ body {
 
 /* Videos */
 .videos {
-    width: 75%;
+    width: 74%;
+    background-color: #F7F7F7;
+    border-right: 1px solid grey;
+}
+
+.videos h5,
+.videos-grid {
+    margin-left: 20px;
+    margin: right: 20px;
+}
+
+.videos-grid {
     display: grid;
+    position: relative;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
 }
 
-.videos * {
-    margin-left: 20px;
+.individual-video img {
+    width: 100%;
 }
 
+.video-text {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 2px;
+    color: white;
+    font-size: 11px;
+    height: 20px;
+}
 
 /* Agenda */
 .agenda {
     width: 25%;
+    height: 500px;
+    background-color: pink;
 }
