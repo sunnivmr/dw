@@ -155,6 +155,11 @@ body {
     width: 100%;
 }
 
+.individual-notice img:hover {
+    cursor: pointer;
+}
+
+
 .notice-text {
     padding: 0px 10px;
 }
@@ -308,23 +313,44 @@ body {
 /* Logos y redes sociales */
 .logos-social-media {
     background-color: #A8B0B2;
-    height: 200px;
+    height: 100px;
+    padding: 20px;
+    margin-top: 50px;
 }
 
 .logos-social-media div {
-    padding: 20px;
+    position: relative;
 }
 
 .logos {
-    width: 75%;
+    float: left;
 }
 
 .social-media {
-    width: 25%;
+    position: absolute;
+    right: 0;
+    float: right;
 }
 
 /* Links */
 .notice-text a {
     text-decoration: none;
     color: black;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    font-size: 12px;
+    background-color: #242424;
+}
+
+.footer * {
+    color: white;
+    display: inline;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: grey;
 }
