@@ -324,7 +324,7 @@ body {
 }
 
 /* Links */
-a {
+.notice-text a {
     text-decoration: none;
     color: black;
 }
