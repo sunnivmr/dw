@@ -322,3 +322,9 @@ body {
 .social-media {
     width: 25%;
 }
+
+/* Links */
+a {
+    text-decoration: none;
+    color: black;
+}
