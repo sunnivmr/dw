@@ -368,9 +368,15 @@ body {
 
 /* Footer */
 .footer {
+    height: 60px;
     padding: 20px;
     font-size: 12px;
     background-color: #363636;
+}
+
+.footer:hover {
+    height: 100px;
+    transition: height 2s ease-in-out;
 }
 
 .footer * {
