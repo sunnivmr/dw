@@ -5,6 +5,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 #container {
     width: 950px;
     height: 1500px;
@@ -389,20 +394,18 @@ body {
     color: #acacac;
 }
 
-.footer-links {
+.footer-text {
     float: left;
     width: 65%;
     display: block;
 }
+
 
 .wifi,
 .eduroam {
     color: #acacac;
 }
 
-.contact-info {
-    float: left;
-}
 
 .contact-info * {
     display: block;
@@ -410,9 +413,10 @@ body {
 
 .footer-logos {
     float: right;
+    margin: 0;
 }
 
 .footer-logos * {
     vertical-align: text-top;
-    margin: 0 17px;
+    margin: 0 6px;
 }
