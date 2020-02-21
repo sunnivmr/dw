@@ -378,7 +378,7 @@ a {
 /* Footer */
 .footer {
     height: 140px;
-    padding: 20px;
+    padding: 0 20px 20px;
     font-size: 12.5px;
     background-color: #363636;
 }
@@ -436,6 +436,7 @@ a {
 }
 
 .footer-logos {
+    padding-top: 20px;
     float: right;
     margin: 0;
 }
