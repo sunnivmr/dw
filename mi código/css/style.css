@@ -368,23 +368,49 @@ body {
 
 /* Footer */
 .footer {
-    height: 60px;
+    height: 200px;
     padding: 20px;
-    font-size: 12px;
+    font-size: 12.5px;
     background-color: #363636;
 }
 
 .footer:hover {
-    height: 100px;
+    height: 300px;
     transition: height 2s ease-in-out;
 }
 
 .footer * {
     color: white;
-    display: inline;
+    display: inline-block;
+    margin: 0.5em 0;
     text-decoration: none;
 }
 
 .footer a:hover {
-    color: grey;
+    color: #acacac;
+}
+
+.footer-links {
+    float: left;
+    width: 65%;
+    display: block;
+}
+
+.wifi,
+.eduroam {
+    color: #acacac;
+}
+
+.contact-info * {
+    display: block;
+    float: left;
+}
+
+.footer-logos {
+    float: right;
+}
+
+.footer-logos * {
+    vertical-align: text-top;
+    margin: 0 17px;
 }
