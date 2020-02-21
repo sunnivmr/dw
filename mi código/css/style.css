@@ -66,9 +66,14 @@ a {
     background-color: #fff;
 }
 
+.logo-link {
+    display: inline-block;
+}
+
 .logo {
     width: 229px;
     height: 65px;
+    background-image: url('../img/logoupv.png');
     margin-left: 20px;
 }
 
@@ -419,4 +424,42 @@ a {
 .footer-logos * {
     vertical-align: text-top;
     margin: 0 6px;
+}
+
+/** Empezar en la Universidad **/
+
+.page-content {
+    margin-top: 50px;
+}
+
+.color-boxes {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.color-boxes * {
+    width: 280px;
+    height: auto;
+    margin: 7px;
+    border-radius: 3%;
+    font-size: 11px;
+    color: white;
+}
+
+.color-boxes ul {
+    padding: 0 10px;
+}
+
+.grey {
+    background-color: #333333;
+}
+
+.purple {
+    background-color: #452636;
+}
+
+.green {
+    background-color: #505A0B;
 }
