@@ -401,9 +401,12 @@ body {
     color: #acacac;
 }
 
+.contact-info {
+    float: left;
+}
+
 .contact-info * {
     display: block;
-    float: left;
 }
 
 .footer-logos {
