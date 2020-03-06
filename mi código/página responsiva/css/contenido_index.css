@@ -77,8 +77,8 @@ main .slider .fondoslider {
 .formacion .franja .texto {
     width: 100%;
     height: 35px;
-    background-color: rgb(42, 53, 70);
-    color: #f2f2f2;
+    background-color: hotpink;
+    color: white;
     text-align: center;
     padding-top: 6px;
 }

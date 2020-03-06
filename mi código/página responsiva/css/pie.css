@@ -13,6 +13,7 @@ footer {
     height: 60px;
     background-color: deeppink;
     position: fixed;
+    bottom: 0;
 }
 
 footer h6 {
@@ -20,4 +21,21 @@ footer h6 {
     font-size: 8px;
     font-weight: 400;
     text-align: center;
+    padding-top: 10px;
+}
+
+footer aside {
+    width: 40px;
+    margin: auto;
+    height: 10px;
+    background-color: deepink;
+    margin: auto;
+}
+
+footer aside a {
+    color: white;
+}
+
+footer aside a:hover {
+    color: hotpink;
 }
