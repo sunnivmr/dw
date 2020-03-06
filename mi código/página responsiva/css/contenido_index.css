@@ -12,4 +12,89 @@ body {
     width: 100%;
     height: 2000px;
     background-color: white;
+    position: relative;
+}
+
+main .slider {
+    width: 100%;
+    height: 500px;
+    padding-top: 130px;
+}
+
+main .slider .fondoslider {
+    background-image: url(../img/fondoslider.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+.eslogan {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    z-index: 90;
+    margin-top: -420px;
+}
+
+.eslogan h1 {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.rosa {
+    color: deeppink;
+}
+
+.formacion {
+    width: 100%;
+    margin-top: 80px;
+    height: 200px;
+    padding-top: 40px;
+}
+
+.formacion h1 {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.formacion .descripcion {
+    font-size: 14px;
+    text-align: center;
+    color: #151515;
+    margin-top: 10px;
+}
+
+.formacion .franja {
+    width: 100%;
+
+}
+
+.formacion .franja .texto {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(42, 53, 70);
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.formacion .franja img {
+    width: 100%;
+}
+
+.franja h2 {
+    width: 100%;
+    height: 40px;
+
+    font-size: 24px;
+    color: aliceblue;
+    position: absolute;
+    margin-top: -280px;
+    text-align: center;
+    padding: 80px;
 }
