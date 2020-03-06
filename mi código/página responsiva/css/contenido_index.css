@@ -39,8 +39,10 @@ main .slider .fondoslider {
 
 .eslogan h1 {
     text-align: center;
+    position: relative;
+    top: 150px;
     color: white;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
 }
 
@@ -97,4 +99,26 @@ main .slider .fondoslider {
     margin-top: -280px;
     text-align: center;
     padding: 80px;
+}
+
+@media (min-width: 768px) {
+
+    .eslogan h1 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .formacion .descripcion {
+        font-size: 17px;
+        color: aliceblue;
+    }
+
+    .formacion .franja {
+        width: 49.5%;
+        float: left;
+    }
 }

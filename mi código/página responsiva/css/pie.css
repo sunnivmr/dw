@@ -34,6 +34,7 @@ footer aside {
 
 footer aside a {
     color: white;
+    text-decoration: none;
 }
 
 footer aside a:hover {
