@@ -1,10 +1,29 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, sanf-serif;
+    font-family: -apple-system,
+        BlinkMacSystemFont,
+        sanf-serif;
     margin: 0;
     padding: 0;
 }
 
-.menu {
+/* Navbar */
+
+/* Hide hamburger and change color of SVG*/
+#hamburger-icon {
+    display: none;
+    width: 18px;
+    height: 18px;
+    /* Change color of SVG */
+    filter: invert(100%) sepia(27%) saturate(15%) hue-rotate(292deg) brightness(86%) contrast(89%);
+}
+
+/* Change color of SVG on hover */
+#hamburger-icon:hover {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(304deg) brightness(101%) contrast(104%);
+    cursor: pointer;
+}
+
+#nav-bar {
     padding: 10px;
     position: -webkit-sticky;
     /* For Safari-users */
@@ -12,33 +31,122 @@ body {
     top: 0;
     cursor: default;
     background-color: rgba(0, 0, 0, 0.8);
-    color: #d1d1d1;
     font-size: 14px;
     font-weight: 300;
-
+    /* Blurry background */
     backdrop-filter: blur(10px);
 }
 
-.nav li:hover {
-    color: white;
-    cursor: pointer;
+/* Change color on hover */
+#nav-bar a {
+    color: #d1d1d1;
+    text-decoration: none;
 }
 
-.nav {
+#nav-bar a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* Navbar items */
+#nav-bar ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    max-width: 80%;
     align-items: center;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
-.nav li {
-    display: inline;
+#nav-bar ul li {
+    display: inline-block;
+    box-sizing: border-box;
 }
 
 
-#apple-logo {
+/* Change color of SVG */
+.nav-icon {
+    width: 20px;
+    height: 20px;
+    filter: invert(100%) sepia(27%) saturate(15%) hue-rotate(292deg) brightness(86%) contrast(89%);
+}
+
+/* Change color of SVG on hover */
+.nav-icon:hover {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(304deg) brightness(101%) contrast(104%);
+}
+
+/* Alternate nav */
+#alt-nav {
+    display: none;
+}
+
+.apple-logo {
     font-size: x-large;
     padding-left: 0.4em;
+}
+
+/* Content */
+.product,
+.grid-item {
+    background-color: #FAFAFA;
+    padding: 1em;
+    margin-bottom: 0.8em;
+}
+
+.links a {
+    text-decoration: none;
+    color: #0266CC;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer */
+footer {
+    font-size: small;
+    padding: 1em;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+}
+
+/* Responsivity using media queries */
+
+@media only screen and (max-width: 768px) {
+
+    /* Show hamburger */
+    #hamburger {
+        display: inline-block;
+    }
+
+    /* Make navbar horizontal */
+    #nav-bar ul li {
+        display: block;
+        border-top: 1px solid #333;
+    }
+
+    /* Toggle show/hide menu with checkbox*/
+    #nav-bar ul {
+        display: none;
+    }
+
+    #nav-bar input:checked ~ ul {
+        display: block;
+    }
+
+    /* Display alternate nav */
+    #alt-nav {
+        display: inline-block;
+    }
+
 }

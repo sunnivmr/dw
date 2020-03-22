@@ -13,24 +13,35 @@
 </head>
 
 <body>
-    <div class="menu">
-        <ul class="nav">
-            <li id="apple-logo"></li>
-            <li>Mac</li>
-            <li>iPad</li>
-            <li>iPhone</li>
-            <li>Watch</li>
-            <li>TV</li>
-            <li>Music</li>
-            <li>Support</li>
-            <li>􀊫</li>
-            <li>􀍣</li>
+    <nav id="nav-bar">
+        <!-- Hamburger -->
+        <label for="hamburger"><img src="img/equal.svg" alt="Hamburger" id="hamburger-icon"></label>
+        <input type="checkbox" id="hamburger" />
+
+        <!-- Navbar -->
+        <ul>
+            <li class="apple-logo"><a href="/"></a></li>
+            <li><a href="#">Mac</a></li>
+            <li><a href="#">iPad</a></li>
+            <li><a href="#">iPhone</a></li>
+            <li><a href="#">Watch</a></li>
+            <li><a href="#">TV</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#"><img src="img/search.svg" alt="Search" class="nav-icon"></a></li>
+            <li><a href="#"><img src="img/shopping-bag.svg" alt="Bag" class="nav-icon"></a></li>
         </ul>
-    </div>
+
+        <div id="alt-nav">
+            <a href="/" class="apple-logo"></a>
+            <a href="#"><img src="img/shopping-bag.svg" alt="Bag" class="nav-icon"></a>
+        </div>
+
+    </nav>
 
     <!-- iPad Pro -->
     <div class="product">
-        <p>NEW</p>
+        <p>New</p>
         <h1>iPad Pro</h1>
         <div class="links">
             <a href="#">Learn more ></a>
@@ -43,7 +54,7 @@
 
     <!-- Macbook Air -->
     <div class="product">
-        <p>NEW</p>
+        <p>New</p>
         <h1>Macbook Air</h1>
         <h3>Twice the speed.</h3>
         <h3>Twice the storage.</h3>
@@ -128,7 +139,23 @@
 
     </div>
 
-</body>
-<footer>
+    <footer>
+        <p>More ways to shop: <a href="#">Find an Apple Store</a> or <a href="#">other retailer</a> near you.</p>
 
-</footer></html>
+        <p>Copyright © 2020 Apple Inc. All rights reserved.</p>
+
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li>|</li>
+            <li><a href="#">Terms of Use</a></li>
+            <li>|</li>
+            <li><a href="#">Sales and Refunds</a></li>
+            <li>|</li>
+            <li><a href="#">Legal</a></li>
+            <li>|</li>
+            <li><a href="#">Site Map</a></li>
+        </ul>
+
+    </footer>
+
+</body></html>
