@@ -1,0 +1,44 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sanf-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    padding: 10px;
+    position: -webkit-sticky;
+    /* For Safari-users */
+    position: sticky;
+    top: 0;
+    cursor: default;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #d1d1d1;
+    font-size: 14px;
+    font-weight: 300;
+
+    backdrop-filter: blur(10px);
+}
+
+.nav li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+
+#apple-logo {
+    font-size: x-large;
+    padding-left: 0.4em;
+}
