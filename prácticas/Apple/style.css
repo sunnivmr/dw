@@ -8,15 +8,6 @@ body {
 
 /* Navbar */
 
-/* Hide hamburger and change color of SVG*/
-#hamburger-icon {
-    display: none;
-    width: 18px;
-    height: 18px;
-    /* Change color of SVG */
-    filter: invert(100%) sepia(27%) saturate(15%) hue-rotate(292deg) brightness(86%) contrast(89%);
-}
-
 /* Change color of SVG on hover */
 #hamburger-icon:hover {
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(304deg) brightness(101%) contrast(104%);
@@ -25,11 +16,11 @@ body {
 
 #nav-bar {
     padding: 10px;
+    width: 100%;
     position: -webkit-sticky;
     /* For Safari-users */
     position: sticky;
     top: 0;
-    cursor: default;
     background-color: rgba(0, 0, 0, 0.8);
     font-size: 14px;
     font-weight: 300;
@@ -37,15 +28,18 @@ body {
     backdrop-filter: blur(10px);
 }
 
-/* Change color on hover */
-#nav-bar a {
-    color: #d1d1d1;
-    text-decoration: none;
+/* Hide hamburger and change color of SVG*/
+#hamburger {
+    display: none;
 }
 
-#nav-bar a:hover {
-    color: white;
-    text-decoration: none;
+#hamburger-icon {
+    display: none;
+    padding-left: 1em;
+    width: 18px;
+    height: 18px;
+    /* Change color of SVG */
+    filter: invert(100%) sepia(27%) saturate(15%) hue-rotate(292deg) brightness(86%) contrast(89%);
 }
 
 /* Navbar items */
@@ -61,7 +55,20 @@ body {
 
 #nav-bar ul li {
     display: inline-block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     box-sizing: border-box;
+}
+
+/* Change color on hover */
+#nav-bar ul li a {
+    color: #d1d1d1;
+    text-decoration: none;
+}
+
+#nav-bar ul li a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -82,9 +89,20 @@ body {
     display: none;
 }
 
+
 .apple-logo {
+    color: #d1d1d1;
+    text-decoration: none;
     font-size: x-large;
-    padding-left: 0.4em;
+}
+
+.apple-logo:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#bag-icon {
+    margin-right: 2em;
 }
 
 /* Content */
@@ -102,6 +120,139 @@ body {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Products */
+.product,
+.grid-item {
+    padding: 3em;
+    text-align: center;
+    height: 500px;
+}
+
+.product .new {
+    color: #a32b2b;
+    margin: 0;
+}
+
+.product h1 {
+    margin-top: 0;
+}
+
+.grey {
+    font-size: 14px;
+    color: grey;
+}
+
+#ipad-pro {
+    margin-top: 2em;
+    background-image: url("img/iPad.jpg");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#ipad-pro .small-text {
+    margin-top: 3em;
+    font-size: small;
+}
+
+#macbook-air {
+    background-image: url("img/MacbookAirBig.jpg");
+    background-size: 50%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+#iphone11pro {
+    color: white;
+    background-image: url("img/iPhone11Pro.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#iphone11 {
+    background-image: url("img/iPhone11.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#covid19 {
+    color: white;
+    background-color: #175CA9;
+    background-image: url("img/AppleLogo.jpg");
+    background-position: bottom;
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+
+#covid19 a {
+    color: white;
+    text-decoration: none;
+}
+
+#thebanker {
+    display: grid;
+    justify-items: center;
+    background-image: url("img/TheBanker.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#thebanker #appletvlogo {
+    align-self: flex-start;
+    width: 15%;
+    padding: 2em;
+}
+
+#thebanker-logo-text {
+    align-self: flex-end;
+    color: white;
+}
+
+
+#thebankerlogo {
+    width: 50%;
+}
+
+#applewatch {
+    background-image: url("img/AppleWatch.jpg");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+#applewatch img {
+    width: 30%;
+}
+
+#arcade {
+    color: white;
+    background-image: url("img/AppleArcade.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#arcade a {
+    display: block;
+    margin: 1em;
+}
+
+#apple-card {
+    background-image: url(img/AppleCard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Grid */
+.product-grid {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 
@@ -125,8 +276,14 @@ footer ul li {
 @media only screen and (max-width: 768px) {
 
     /* Show hamburger */
-    #hamburger {
+    #hamburger-icon {
+        display: block;
+    }
+
+    #nav-bar label {
         display: inline-block;
+        position: absolute;
+        padding-top: 0.25em;
     }
 
     /* Make navbar horizontal */
@@ -144,9 +301,41 @@ footer ul li {
         display: block;
     }
 
+    #nav-bar input:checked {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+
+    #nav-bar input:checked ~ #alt-nav {
+        display: none;
+    }
+
+    #nav-bar ul .nav-logo input:checked {
+        display: none;
+    }
+
     /* Display alternate nav */
     #alt-nav {
-        display: inline-block;
+        display: flex;
+        justify-content: space-between;
     }
+
+    .product-grid {
+        display: grid;
+        grid-auto-rows: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #macbook-air {
+        color: white;
+        background-image: url("img/MacbookAir.jpg");
+        background-size: cover;
+    }
+
+    .apple-logo {
+        margin-left: 1em;
+    }
+
 
 }

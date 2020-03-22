@@ -14,78 +14,84 @@
 
 <body>
     <nav id="nav-bar">
+
+
         <!-- Hamburger -->
         <label for="hamburger"><img src="img/equal.svg" alt="Hamburger" id="hamburger-icon"></label>
         <input type="checkbox" id="hamburger" />
 
+        <!-- Alternate nav -->
+        <div id="alt-nav">
+            <a href="#"></a>
+            <a href="#" class="apple-logo"></a>
+            <a href="#"><img src="img/shopping-bag.svg" alt="Bag" class="nav-icon" id="bag-icon"></a>
+        </div>
+
         <!-- Navbar -->
         <ul>
-            <li class="apple-logo"><a href="/"></a></li>
+            <li class="apple-logo"><a href="#"></a></li>
             <li><a href="#">Mac</a></li>
             <li><a href="#">iPad</a></li>
             <li><a href="#">iPhone</a></li>
             <li><a href="#">Watch</a></li>
             <li><a href="#">TV</a></li>
             <li><a href="#">Music</a></li>
-            <li><a href="#">Music</a></li>
+            <li><a href="#">Support</a></li>
             <li><a href="#"><img src="img/search.svg" alt="Search" class="nav-icon"></a></li>
             <li><a href="#"><img src="img/shopping-bag.svg" alt="Bag" class="nav-icon"></a></li>
         </ul>
 
-        <div id="alt-nav">
-            <a href="/" class="apple-logo"></a>
-            <a href="#"><img src="img/shopping-bag.svg" alt="Bag" class="nav-icon"></a>
-        </div>
+
 
     </nav>
 
     <!-- iPad Pro -->
-    <div class="product">
-        <p>New</p>
+    <div class="product" id="ipad-pro">
+        <p class="new">New</p>
         <h1>iPad Pro</h1>
         <div class="links">
             <a href="#">Learn more ></a>
             <a href="#">Order ></a>
         </div>
-        <img src="img/iPad" alt="iPad Pro">
-        <p>iPad Pro available starting 3.25</p>
-        <p>Magic Keyboard coming in May</p>
+        <div class="small-text">
+            <p class="grey">iPad Pro available starting 3.25</p>
+            <p class="grey">Magic Keyboard coming in May</p>
+        </div>
+
     </div>
 
     <!-- Macbook Air -->
-    <div class="product">
-        <p>New</p>
+    <div class="product" id="macbook-air">
+        <p class="new">New</p>
         <h1>Macbook Air</h1>
-        <h3>Twice the speed.</h3>
-        <h3>Twice the storage.</h3>
-        <p class="price">Now from $999</p>
+        <p>Twice the speed.</p>
+        <p>Twice the storage.</p>
+        <p class="grey">Now from $999</p>
         <div class="links">
             <a href="#">Learn more ></a>
             <a href="#">Buy ></a>
         </div>
-        <img src="img/MacbookAir" alt="Macbook Air">
     </div>
 
     <!-- iPhone 11 Pro -->
-    <div class="product" id="iphone11">
+    <div class="product" id="iphone11pro">
         <h1>iPhone 11 Pro</h1>
         <h3>Pro cameras. Pro display. Pro performance.</h3>
-        <p class="price">From $28.29/mo. or $679 with trade-in.</p>
+        <p class="grey">From $28.29/mo. or $679 with trade-in.</p>
         <div class="links">
             <a href="#">Learn more ></a>
             <a href="#">Buy ></a>
         </div>
-        <img src="img/iPhone11Pro" alt="iPhone 11 Pro">
     </div>
 
 
     <div class="product-grid">
 
         <!-- iPhone 11 -->
-        <div class="grid-item">
+        <div class="grid-item" id="iphone11">
             <h1>iPhone 11</h1>
             <h3>Just the right amount of everything.</h3>
-            <p class="price">From $18.70/mo. or $449 with trade-in.</p>
+            <p class="grey">From $18.70/mo. or $449 with trade-in.</p>
             <div class="links">
                 <a href="#">Learn more ></a>
                 <a href="#">Buy ></a>
@@ -96,30 +102,29 @@
         <div class="grid-item" id="covid19">
             <h1>Get the latest CDC response to COVID-19.</h1>
             <a href="#">Watch the PSA ></a>
-            <img src="img/apple_logo" alt="Apple Logo">
         </div>
 
         <div class="grid-item" id="thebanker">
-            <img src="img/appletv_logo" alt="AppleTV Logo">
-            <h2>THE BANKER</h2>
-            <h3>Watch now on Apple TV app 􀊕</h3>
+            <img id="appletvlogo" src="img/appletv_logo.png" alt="AppleTV Logo">
+            <div id="thebanker-logo-text"><img id="thebankerlogo" src="img/thebanker_logo.png" alt="The Banker">
+                <p>Watch now on the Apple TV app ></p>
+            </div>
+
         </div>
 
-        <div class="grid-item">
-            <h1>WATCH</h1>
-            <p>SERIES 5<p>
-                    <h3>With the Always-On Retina display.</h3>
-                    <h3>You've never seen a watch like this.</h3>
-                    <div class="links">
-                        <a href="#">Learn more ></a>
-                        <a href="#">Buy ></a>
-                    </div>
-                    <img src="img/applewatch" alt="">
+        <div class="grid-item" id="applewatch">
+            <img src="img/AppleWatch.png" alt="Apple Watch">
+            <p>With the Always-On Retina display.</p>
+            <p>You've never seen a watch like this.</p>
+            <div class="links">
+                <a href="#">Learn more ></a>
+                <a href="#">Buy ></a>
+            </div>
         </div>
 
         <div class="grid-item" id="arcade">
             <h1>Arcade</h1>
-            <h3>Agent 8 is a small hero on a big mission.</h3>
+            <p>Agent 8 is a small hero on a big mission.</p>
             <div class="links">
                 <a href="#">Play now² ></a>
                 <a href="#">Learn about Apple Arcade ></a>
@@ -130,7 +135,7 @@
             <h1>Apple Card</h1>
             <h1>Monthly</h1>
             <h1>Installments</h1>
-            <h3>Pay for your next iPhone over time, interest-free with Apple Card.</h3>
+            <p>Pay for your next iPhone over time, interest-free with Apple Card.</p>
             <div class="links">
                 <a href="#">Learn more ></a>
                 <a href="#">Apply now ></a>
