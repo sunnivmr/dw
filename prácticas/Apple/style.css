@@ -94,6 +94,7 @@ body {
     color: #d1d1d1;
     text-decoration: none;
     font-size: x-large;
+    padding-left: 1em;
 }
 
 .apple-logo:hover {
@@ -286,10 +287,26 @@ footer ul li {
         padding-top: 0.25em;
     }
 
+    /* Change background-color of nav-bar */
+    #nav-bar {
+        background-color: black;
+        z-index: 100;
+        transition: 1s;
+    }
+
     /* Make navbar horizontal */
     #nav-bar ul li {
         display: block;
-        border-top: 1px solid #333;
+        padding: 1em;
+        border-top: 1px solid grey;
+    }
+
+    #nav-bar ul li:first-child {
+        border: none;
+    }
+
+    #nav-bar ul li:nth-child(2) {
+        border: none;
     }
 
     /* Toggle show/hide menu with checkbox*/
@@ -301,18 +318,18 @@ footer ul li {
         display: block;
     }
 
-    #nav-bar input:checked {
-        width: 100%;
-        height: 100%;
-        background-color: black;
+    #nav-bar input:checked ~ ul .last-item {
+        height: 100vh;
+        overflow: hidden;
     }
 
-    #nav-bar input:checked ~ #alt-nav {
+    #nav-bar input:checked ~ #alt-nav #bag-icon {
         display: none;
     }
 
-    #nav-bar ul .nav-logo input:checked {
-        display: none;
+    .hide-when-open {
+        display: none !important;
+        background-color: red;
     }
 
     /* Display alternate nav */
@@ -331,10 +348,6 @@ footer ul li {
         color: white;
         background-image: url("img/MacbookAir.jpg");
         background-size: cover;
-    }
-
-    .apple-logo {
-        margin-left: 1em;
     }
 
 
