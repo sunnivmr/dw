@@ -21,11 +21,12 @@ body {
     /* For Safari-users */
     position: sticky;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     font-size: 14px;
     font-weight: 300;
     /* Blurry background */
     backdrop-filter: blur(10px);
+    z-index: 200;
 }
 
 /* Hide hamburger and change color of SVG*/
@@ -325,8 +326,8 @@ footer ul .line {
 
     /* Change background-color of nav-bar */
     #nav-bar {
-        background-color: black;
         z-index: 100;
+        background-color: black;
     }
 
     /* Make navbar horizontal */
@@ -355,7 +356,7 @@ footer ul .line {
     }
 
     #nav-bar input:checked ~ ul .last-item {
-        height: 100vh;
+        height: 50vh;
         overflow: hidden;
     }
 
@@ -386,5 +387,9 @@ footer ul .line {
         background-size: cover;
     }
 
+    /* Center apple logo when open */
+    input:checked ~ #alt-nav .apple-logo {
+        padding: 0;
+    }
 
 }
