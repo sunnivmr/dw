@@ -71,6 +71,17 @@ body {
     text-decoration: none;
 }
 
+/* Change link colors */
+
+.links a {
+    text-decoration: none;
+    color: #0266CC;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 /* Change color of SVG */
 .nav-icon {
@@ -114,14 +125,6 @@ body {
     margin-bottom: 0.8em;
 }
 
-.links a {
-    text-decoration: none;
-    color: #0266CC;
-}
-
-a:hover {
-    text-decoration: underline;
-}
 
 /* Products */
 .product,
@@ -272,6 +275,39 @@ footer ul li {
     display: inline;
 }
 
+footer .shop {
+    color: grey;
+}
+
+/* Footer links */
+footer .shop a {
+    color: #0266CC;
+    text-decoration: none;
+}
+
+footer .shop a:hover {
+    text-decoration: underline;
+}
+
+footer .shop a:visited {
+    color: #0266CC;
+    text-decoration: none;
+}
+
+footer .copyright {
+    color: #a5a5a5;
+}
+
+footer ul .link {
+    color: grey;
+    text-decoration: none;
+}
+
+footer ul .line {
+    color: lightgrey;
+}
+
+
 /* Responsivity using media queries */
 
 @media only screen and (max-width: 768px) {
@@ -291,7 +327,6 @@ footer ul li {
     #nav-bar {
         background-color: black;
         z-index: 100;
-        transition: 1s;
     }
 
     /* Make navbar horizontal */
