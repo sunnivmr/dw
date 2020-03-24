@@ -17,12 +17,9 @@ a {
 /* Nav */
 nav {
     font-size: small;
-    text-transform: uppercase;
-    font-weight: bold;
 }
 
 .main-nav ul {
-    font-size: 11px;
     list-style: none;
     padding-left: 2em;
 }
