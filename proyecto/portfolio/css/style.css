@@ -1,0 +1,35 @@
+/* Body */
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Sections */
+section {
+    padding: 1em;
+    background-color: aliceblue;
+}
+
+/* Main */
+
+/* Nav */
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Footer */
+
+footer {
+    background-color: aliceblue;
+    font-size: small;
+    text-align: center;
+}
+
+footer p {
+    display: inline-block;
+    margin: 0 1em;
+}
