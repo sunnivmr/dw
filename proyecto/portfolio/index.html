@@ -15,10 +15,27 @@
 
 <body>
 
+    <!-- JS -->
+    <script>
+        window.onscroll = function() {
+            showAltNav()
+        };
+
+        function showAltNav() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("alt-nav").style.top = "0";
+            } else {
+                document.getElementById("alt-nav").style.top = "-50px";
+            }
+        }
+    </script>
+
     <!-- Main -->
     <section id="main">
         <div class="main-box">
             <h1>Sunniva Mathea</h1>
+
+            <!-- Nav -->
             <nav class="main-nav">
                 <ul>
                     <li><a href="#about">About me</a></li>
@@ -26,6 +43,16 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+
+            <!-- Alternative nav -->
+            <div id="alt-nav">
+                <ul>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
         </div>
     </section>
 

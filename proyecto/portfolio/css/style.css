@@ -4,7 +4,52 @@ body {
     margin: 0;
 }
 
+/* Nav */
+.main-nav ul {
+    list-style: none;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Alternative nav */
+#alt-nav {
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 1s;
+}
+
+#alt-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#alt-nav ul li {}
+
+
+#alt-nav ul li a {
+    text-decoration: none;
+    color: hotpink;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+#alt-nav ul li a:hover {
+    color: blue;
+}
+
+
 /* Sections */
+section {
+    min-height: 200px;
+}
+
 section,
 footer {
     padding: 1em;
@@ -15,10 +60,12 @@ section h1 {
     text-align: center;
 }
 
-section:nth-child(even) {
+section:nth-child(odd) {
     background-color: black;
     color: white;
 }
+
+section:last-child {}
 
 /* Main */
 
@@ -35,15 +82,7 @@ section:nth-child(even) {
 
 /* Contact */
 
-/* Nav */
-nav ul {
-    list-style: none;
-}
 
-nav ul li a {
-    text-decoration: none;
-    color: black;
-}
 
 /* Footer */
 
@@ -51,8 +90,6 @@ footer {
     width: 100%;
     font-size: small;
     text-align: center;
-    position: absolute;
-    bottom: 0;
 }
 
 footer p {
