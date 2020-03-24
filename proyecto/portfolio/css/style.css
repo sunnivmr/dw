@@ -1,21 +1,49 @@
+html {
+    scroll-behavior: smooth;
+}
+
 /* Body */
 body {
     font-family: 'Work Sans', sans-serif;
     margin: 0;
 }
 
+/* Links */
+a {
+    text-decoration: none;
+}
+
+
 /* Nav */
+nav {
+    font-size: small;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 .main-nav ul {
+    font-size: 11px;
     list-style: none;
+    padding-left: 2em;
+}
+
+.main-nav ul li {
+    margin-top: 0.5em;
 }
 
 .main-nav ul li a {
-    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.main-nav ul li a:hover {
     color: black;
+    margin: 1em;
+    transition: margin 1s;
 }
 
 /* Alternative nav */
 #alt-nav {
+    background-color: rgba(0, 0, 0, 0.9);
     position: fixed;
     top: -50px;
     width: 100%;
@@ -25,29 +53,29 @@ body {
 
 #alt-nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    text-align: center;
 }
 
-#alt-nav ul li {}
+#alt-nav ul li {
+    margin-right: 1em;
+    display: inline-block;
+}
 
 
 #alt-nav ul li a {
-    text-decoration: none;
-    color: hotpink;
+    color: lightgrey;
     float: left;
-    display: block;
     text-align: center;
 }
 
 #alt-nav ul li a:hover {
-    color: blue;
+    color: white;
 }
 
 
 /* Sections */
 section {
-    min-height: 200px;
+    min-height: 300px;
 }
 
 section,
@@ -60,7 +88,7 @@ section h1 {
     text-align: center;
 }
 
-section:nth-child(odd) {
+section:nth-child(even) {
     background-color: black;
     color: white;
 }
@@ -68,8 +96,10 @@ section:nth-child(odd) {
 section:last-child {}
 
 /* Main */
-
-#main {}
+.main-box {
+    margin: 5em auto;
+    width: 50%;
+}
 
 #main h1 {
     text-align: left;
@@ -88,7 +118,7 @@ section:last-child {}
 
 footer {
     width: 100%;
-    font-size: small;
+    font-size: x-small;
     text-align: center;
 }
 

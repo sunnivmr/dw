@@ -22,13 +22,22 @@
         };
 
         function showAltNav() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
                 document.getElementById("alt-nav").style.top = "0";
             } else {
                 document.getElementById("alt-nav").style.top = "-50px";
             }
         }
     </script>
+
+    <!-- Alternative nav -->
+    <nav id="alt-nav">
+        <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
     <!-- Main -->
     <section id="main">
@@ -43,15 +52,6 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-
-            <!-- Alternative nav -->
-            <div id="alt-nav">
-                <ul>
-                    <li><a href="#about">About me</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
 
         </div>
     </section>
