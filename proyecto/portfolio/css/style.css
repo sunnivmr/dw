@@ -39,42 +39,6 @@ nav {
     transition-property: margin;
 }
 
-/* Alternative nav */
-#alt-nav {
-    background-color: rgba(0, 0, 0, 0.9);
-    position: fixed;
-    top: -50px;
-    width: 100%;
-    display: block;
-    transition: top 1s;
-    z-index: 200;
-}
-
-#alt-nav ul {
-    list-style: none;
-    text-align: center;
-}
-
-#alt-nav ul li {
-    margin-right: 1em;
-    display: inline-block;
-}
-
-
-#alt-nav ul li a {
-    color: lightgrey;
-    float: left;
-    text-align: center;
-    text-transform: uppercase;
-
-}
-
-#alt-nav ul li a:hover {
-    color: white;
-    font-weight: bold;
-}
-
-
 /* Sections */
 section {
     min-height: 300px;
