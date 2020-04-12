@@ -63,11 +63,7 @@ section h1 {
 }
 
 
-/* Main */
-.main-box {
-    margin: 5em auto;
-    width: 50%;
-}
+/* Home */
 
 #main h1 {
     text-align: left;
@@ -79,19 +75,3 @@ section h1 {
 /* Portfolio */
 
 /* Contact */
-
-#contact {}
-
-
-/* Footer */
-
-footer {
-    width: 100%;
-    font-size: x-small;
-    text-align: center;
-}
-
-footer p {
-    display: inline-block;
-    margin: 0.5em 1em;
-}
