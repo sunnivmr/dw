@@ -16,58 +16,48 @@ a {
 }
 
 /* Headers */
-h1 {
+.stacked-title {
     font-family: 'Germania One', sans-serif;
+    position: relative;
+}
+
+.stacked-title h1 {
+    text-shadow: -1px 0#540A90, 0 1px #540A90, 1px 0 #540A90, 0 -1px #540A90;
+    color: #BBB8E3;
     font-size: 100px;
+}
+
+.stacked-title h2 {
+    font-size: 60px;
+    position: absolute;
+    width: 500px;
+    margin: auto;
+    top: 80px;
+    left: 0;
+    right: 0;
 }
 
 
 /* Nav */
+
+.navbar {
+    height: 5em;
+    background-color: yellow;
+}
+
 nav {
-    margin-right: 5em;
-    font-size: 1em;
-    text-align: right;
-    float: right;
+    display: none;
 }
 
-nav ul {
-    list-style: none;
-    padding-left: 2em;
-}
-
-nav ul li {
-    margin-top: 0.5em;
-    margin-bottom: 1.5em;
-}
-
-nav ul li a {
-    opacity: 0.5;
-    color: #F3F5F7;
-}
-
-nav ul li a:hover {
-    opacity: 1;
-    margin: 1em;
-    transition: all 1s ease;
-    transition-property: margin;
-}
-
-/* Sections */
-section {
-    min-height: 300px;
-    display: block;
-    position: relative;
-}
-
-section,
-    {
-    padding: 1em;
-}
 
 
 /* Home */
 
-#main h1 {}
+#home {
+    text-align: center;
+}
+
+#home h1 {}
 
 
 /* About */
@@ -75,3 +65,39 @@ section,
 /* Portfolio */
 
 /* Contact */
+
+
+/* Desktop version */
+@media only screen and (min-width: 768px) {
+
+    /* Nav */
+    nav {
+        display: block;
+        margin-right: 5em;
+        font-size: 1em;
+        text-align: right;
+        float: right;
+    }
+
+    nav ul {
+        list-style: none;
+        padding-left: 2em;
+    }
+
+    nav ul li {
+        margin-top: 0.5em;
+        margin-bottom: 1.5em;
+    }
+
+    nav ul li a {
+        opacity: 0.5;
+        color: #F3F5F7;
+    }
+
+    nav ul li a:hover {
+        opacity: 1;
+        margin: 1em;
+        transition: all 1s ease;
+        transition-property: margin;
+    }
+}
