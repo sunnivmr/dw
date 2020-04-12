@@ -57,7 +57,12 @@ nav {
     text-align: center;
 }
 
-#home h1 {}
+.home-text {
+    text-align: left;
+    margin: auto;
+    width: 50%;
+}
+
 
 
 /* About */
@@ -71,6 +76,10 @@ nav {
 @media only screen and (min-width: 768px) {
 
     /* Nav */
+    .navbar {
+        display: none;
+    }
+
     nav {
         display: block;
         margin-right: 5em;
