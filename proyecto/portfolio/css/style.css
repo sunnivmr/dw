@@ -5,6 +5,7 @@ html {
 /* Body */
 body {
     font-family: 'Open Sans', Helvetica, sans-serif;
+    color: #F3F5F7;
     background-color: #BBB8E3;
     margin: 0;
 }
@@ -17,29 +18,35 @@ a {
 /* Headers */
 h1 {
     font-family: 'Germania One', sans-serif;
+    font-size: 100px;
 }
 
 
 /* Nav */
 nav {
-    font-size: 12px;
+    margin-right: 5em;
+    font-size: 1em;
+    text-align: right;
+    float: right;
 }
 
-.main-nav ul {
+nav ul {
     list-style: none;
     padding-left: 2em;
 }
 
-.main-nav ul li {
+nav ul li {
     margin-top: 0.5em;
+    margin-bottom: 1.5em;
 }
 
-.main-nav ul li a {
-    color: rgba(0, 0, 0, 0.5);
+nav ul li a {
+    opacity: 0.5;
+    color: #F3F5F7;
 }
 
-.main-nav ul li a:hover {
-    color: #1a1a1a;
+nav ul li a:hover {
+    opacity: 1;
     margin: 1em;
     transition: all 1s ease;
     transition-property: margin;
@@ -52,22 +59,15 @@ section {
     position: relative;
 }
 
-
 section,
     {
     padding: 1em;
 }
 
-section h1 {
-    text-align: center;
-}
-
 
 /* Home */
 
-#main h1 {
-    text-align: left;
-}
+#main h1 {}
 
 
 /* About */
