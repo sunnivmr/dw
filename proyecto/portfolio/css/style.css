@@ -81,13 +81,14 @@ nav {
 }
 
 
-
-/* Home */
-
-#home {
+/* Page content */
+.content {
     text-align: center;
     padding-bottom: 5em;
 }
+
+
+/* Home */
 
 .home-text {
     text-align: left;
@@ -96,8 +97,11 @@ nav {
 }
 
 
-
 /* About */
+
+#about img {
+    width: 250px;
+}
 
 /* Portfolio */
 
