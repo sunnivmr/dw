@@ -18,18 +18,19 @@ a {
 /* Headers */
 .stacked-title {
     font-family: 'Germania One', sans-serif;
+    margin-top: 3em;
     position: relative;
 }
 
-.stacked-title h1 {
-    color: #540A90;
-    font-size: 100px;
+.stacked-title img {
+    width: 360px;
 }
 
 .stacked-title h2 {
     font-size: 60px;
     position: absolute;
     width: 500px;
+    font-weight: 100;
     margin: auto;
     top: 80px;
     left: 0;
@@ -40,8 +41,8 @@ a {
 /* Nav */
 
 .navbar {
-    padding: 1em;
-    height: 4em;
+    padding: 1.5em;
+    height: 3em;
     position: sticky;
     z-index: 100;
     top: 0;
@@ -90,8 +91,8 @@ nav {
 
 .home-text {
     text-align: left;
-    margin: auto;
-    width: 50%;
+    margin: 5em auto;
+    width: 60%;
 }
 
 
