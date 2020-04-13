@@ -6,7 +6,7 @@ html {
 body {
     font-family: 'Open Sans', Helvetica, sans-serif;
     color: #F3F5F7;
-    background-color: #BBB8E3;
+    background-color: #B5B1E3;
     margin: 0;
 }
 
@@ -22,8 +22,7 @@ a {
 }
 
 .stacked-title h1 {
-    text-shadow: -1px 0#540A90, 0 1px #540A90, 1px 0 #540A90, 0 -1px #540A90;
-    color: #BBB8E3;
+    color: #540A90;
     font-size: 100px;
 }
 
@@ -41,11 +40,39 @@ a {
 /* Nav */
 
 .navbar {
-    height: 5em;
+    padding: 1em;
+    height: 4em;
     position: sticky;
     z-index: 100;
     top: 0;
-    background-color: yellow;
+    background-color: #B5B1E3;
+}
+
+.navbar button {
+    border: none;
+    cursor: pointer;
+}
+
+.navbar .open {
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-image: url(../img/icons/nav_open.svg);
+    background-color: #B5B1E3;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navbar .switch {
+    width: 80px;
+    height: 50px;
+    float: right;
+    background-image: url(../img/icons/mode_switch.svg);
+    background-color: #B5B1E3;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 nav {
