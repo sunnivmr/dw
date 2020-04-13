@@ -42,6 +42,9 @@ a {
 
 .navbar {
     height: 5em;
+    position: sticky;
+    z-index: 100;
+    top: 0;
     background-color: yellow;
 }
 
@@ -55,6 +58,7 @@ nav {
 
 #home {
     text-align: center;
+    padding-bottom: 5em;
 }
 
 .home-text {
