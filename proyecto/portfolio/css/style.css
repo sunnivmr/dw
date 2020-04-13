@@ -15,6 +15,21 @@ a {
     text-decoration: none;
 }
 
+/* Logo */
+.logo {
+    display: none;
+    background-image: url(../img/icons/logo-02.svg);
+    width: 70px;
+    height: 70px;
+    margin: 2em;
+    float: left;
+    border: none;
+    background-color: #B5B1E3;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 /* Headers */
 .stacked-title {
     font-family: 'Germania One', sans-serif;
@@ -131,6 +146,11 @@ nav {
 
 /* Desktop version */
 @media only screen and (min-width: 768px) {
+
+    /* Logo */
+    .logo {
+        display: block;
+    }
 
     /* Nav */
     .navbar {
