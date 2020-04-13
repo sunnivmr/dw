@@ -105,7 +105,25 @@ nav {
 
 /* Portfolio */
 
+#portfolio img {
+    width: 420px;
+}
+
+#portfolio h2 {
+    font-size: 80px;
+    top: 100px;
+}
+
 /* Contact */
+
+#contact img {
+    width: 420px;
+}
+
+#contact h2 {
+    font-size: 80px;
+    top: 100px;
+}
 
 
 /* Desktop version */
