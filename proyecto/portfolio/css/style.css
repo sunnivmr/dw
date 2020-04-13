@@ -29,7 +29,6 @@ a {
 .stacked-title h2 {
     font-size: 60px;
     position: absolute;
-    width: 500px;
     font-weight: 100;
     margin: auto;
     top: 80px;
@@ -126,6 +125,10 @@ nav {
 }
 
 
+/* Tablet version */
+@media only screen and (min-width: 600px) {}
+
+
 /* Desktop version */
 @media only screen and (min-width: 768px) {
 
@@ -133,6 +136,37 @@ nav {
     .navbar {
         display: none;
     }
+
+    /* Page content */
+
+    .content {
+        width: 100%;
+    }
+
+    .stacked-title img {
+        width: 360px;
+    }
+
+    .stacked-title h2 {
+        font-size: 100px;
+    }
+
+
+    /* Home */
+    .home-text {
+        display: none;
+    }
+
+    #home .stacked-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        margin: 0;
+        padding: 0;
+    }
+
 
     nav {
         display: block;
