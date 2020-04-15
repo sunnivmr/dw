@@ -183,6 +183,13 @@ nav {
     .stacked-title {
         width: 720px;
         margin: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        margin: 0;
+        padding: 0;
     }
 
     .stacked-title img {
@@ -202,16 +209,6 @@ nav {
     /* Home */
     .home-text {
         display: none;
-    }
-
-    .stacked-title {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        margin: 0;
-        padding: 0;
     }
 
 
