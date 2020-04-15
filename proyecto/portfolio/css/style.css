@@ -220,6 +220,7 @@ nav {
         font-size: 1em;
         text-align: right;
         float: right;
+        padding: 1em 0;
     }
 
     nav ul {
@@ -235,12 +236,13 @@ nav {
     nav ul li a {
         opacity: 0.5;
         color: #F3F5F7;
+        position: relative;
     }
 
     nav ul li a:hover {
         opacity: 1;
-        margin: 1em;
         transition: all 1s ease;
+        margin-right: 1.5em;
         transition-property: margin;
     }
 }
