@@ -240,10 +240,12 @@ nav {
         position: relative;
     }
 
-    nav ul li a:hover {
+    nav ul li hr {
+        color: #540A90;
+        width: 30px;
         opacity: 1;
+        display: inline-block;
         transition: all 1s ease;
-        padding-right: 1.5em;
-        transition-property: padding;
+        transition-property: display;
     }
 }
