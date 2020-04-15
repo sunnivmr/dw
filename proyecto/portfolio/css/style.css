@@ -63,10 +63,6 @@ a {
     background-color: #B5B1E3;
 }
 
-.navbar button {
-    border: none;
-    cursor: pointer;
-}
 
 .navbar .open {
     width: 50px;
@@ -79,11 +75,15 @@ a {
     background-repeat: no-repeat;
 }
 
+button {
+    border: none;
+    cursor: pointer;
+}
+
 .switch {
     width: 80px;
     height: 50px;
     float: right;
-    border: none;
     background-image: url(../img/icons/mode_switch.svg);
     background-color: #B5B1E3;
     background-size: contain;
@@ -166,6 +166,7 @@ nav {
     /* Logo */
     .logo {
         display: block;
+        cursor: pointer;
     }
 
     /* Nav */
