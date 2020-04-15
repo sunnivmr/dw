@@ -104,8 +104,17 @@ nav {
 
 .switch-button {
     display: none;
+    position: absolute;
+    padding: 2em;
     left: 0;
     bottom: 0;
+    width: 125px;
+    height: 60px;
+}
+
+.switch-button .switch {
+    width: 100%;
+    height: 100%;
 }
 
 
