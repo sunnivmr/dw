@@ -1,5 +1,5 @@
 // Dark mode variable
-var on = false;
+var on;
 
 // Function for opening side nav
 function openNav() {
@@ -18,33 +18,55 @@ function closeNav() {
     document.getElementsByClassName("content")[0].style.marginLeft = "0";
 }
 
-// Dark mode function
-function darkMode() {
+// Function for setting correct mode on load of web page
+function mode() {
 
     var dark = "#202131";
     var light = "#B5B1E3";
 
-    if (!on) {
+    var txtDark = "#9DD6FF";
+    var txtLight = "#F3F5F7";
+
+
+    if (on) {
         console.log("Dark mode activated");
 
 
-        // Change background-color to dark 
+        // Change background-colors
         document.body.style.backgroundColor = dark;
         document.getElementById("sidenav").style.backgroundColor = dark;
 
-        on = true;
+
+        // Change text-colors
+        document.body.style.color = txtDark;
+
+        // Change background-image on title
+        document.getElementById("title").style.backgroundImage = "url('../img/titles/home.svg')";
+
+        // Change background-images on buttons
+
     } else {
         console.log("Dark mode deactivated");
 
-        // Change background-color to light
+        // Change colors
         document.body.style.backgroundColor = light;
-
+        document.body.style.color = txtLight;
         document.getElementById("sidenav").style.backgroundColor = light;
 
+    }
+}
+
+// Turn on/off dark mode
+function darkMode() {
+
+    // Change current mode
+    if (on) {
         on = false;
+    } else {
+        on = true;
     }
 
-
-
+    // Set new current mode
+    mode();
 
 }

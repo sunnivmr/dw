@@ -16,17 +16,17 @@
 
 </head>
 
-<body>
+<body onload="mode()">
 
     <!-- Navbar mobile -->
     <section class="navbar">
         <button class="open" onclick="openNav()">
         </button>
-        <button class="switch"></button>
+        <button class="switch" onclick="darkMode()">
     </section>
 
     <!-- Sidenav mobile -->
-    <section class="sidenav">
+    <section class="sidenav" id="sidenav">
         <button href="javascript:void(0)" class="close" onclick="closeNav()"></button>
         <a href="/proyecto/portfolio/index.html"><button class="logo"></button></a>
         <a href="/proyecto/portfolio/index.html">Home</a>
@@ -60,7 +60,9 @@
 
     <!-- Switch button -->
     <section class="switch-button">
-        <button class="switch"></button>
+        <button class="switch" onclick="darkMode()">
     </section>
 
-</body></html>
+</body>
+
+</html>
