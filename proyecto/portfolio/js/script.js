@@ -1,6 +1,6 @@
 // Function for opening side nav
 function openNav() {
-    document.getElementsByClassName("sidenav")[0].style.width = "250px";
+    document.getElementsByClassName("sidenav")[0].style.width = "100%";
     document.getElementsByClassName("content")[0].style.marginLeft = "250px";
 }
 
