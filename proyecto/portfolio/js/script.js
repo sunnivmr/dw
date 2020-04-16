@@ -21,6 +21,8 @@ function closeNav() {
 // Function for setting correct mode on load of web page
 function mode() {
 
+    var buttons = document.getElementsByClassName("button");
+
     var dark = "#202131";
     var light = "#B5B1E3";
 
@@ -36,22 +38,33 @@ function mode() {
         document.body.style.backgroundColor = dark;
         document.getElementById("sidenav").style.backgroundColor = dark;
 
+        document.getElementById("navbar").style.backgroundColor = dark;
+
 
         // Change text-colors
         document.body.style.color = txtDark;
 
         // Change background-image on title
-        document.getElementById("title").style.backgroundImage = "url('../img/titles/home.svg')";
+        document.getElementById("title").src = "/proyecto/portfolio/img/titles/home_dark.svg";
 
         // Change background-images on buttons
 
     } else {
         console.log("Dark mode deactivated");
 
-        // Change colors
+        // Change background-colors
         document.body.style.backgroundColor = light;
-        document.body.style.color = txtLight;
+
         document.getElementById("sidenav").style.backgroundColor = light;
+
+        document.getElementById("navbar").style.backgroundColor = light
+
+        // Change text-colors
+        document.body.style.color = txtLight;
+
+
+        // Change background-image on title
+        document.getElementById("title").src = "/proyecto/portfolio/img/titles/home.svg";
 
     }
 }
