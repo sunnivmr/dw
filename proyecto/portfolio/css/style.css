@@ -95,6 +95,40 @@ nav {
     display: none;
 }
 
+/* Sidenav */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: pink;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../img/icons/nav_close.svg);
+    background-color: #B5B1E3;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 /* Page content */
 .content {
