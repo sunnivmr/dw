@@ -21,19 +21,25 @@ function closeNav() {
 // Dark mode function
 function darkMode() {
 
+    var dark = "#202131";
+    var light = "#B5B1E3";
+
     if (!on) {
         console.log("Dark mode activated");
 
 
         // Change background-color to dark 
-        document.body.style.backgroundColor = "#202131";
+        document.body.style.backgroundColor = dark;
+        document.getElementById("sidenav").style.backgroundColor = dark;
 
         on = true;
     } else {
         console.log("Dark mode deactivated");
 
         // Change background-color to light
-        document.body.style.backgroundColor = "#B5B1E3";
+        document.body.style.backgroundColor = light;
+
+        document.getElementById("sidenav").style.backgroundColor = light;
 
         on = false;
     }

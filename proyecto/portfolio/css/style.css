@@ -19,8 +19,8 @@ a {
 .logo {
     display: none;
     background-image: url(../img/icons/logo-02.svg);
+    background-color: rgba(181, 177, 227, 0);
     border: none;
-    background-color: #B5B1E3;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
