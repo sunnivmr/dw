@@ -1,3 +1,6 @@
+// Dark mode variable
+var on = false;
+
 // Function for opening side nav
 function openNav() {
 
@@ -18,21 +21,21 @@ function closeNav() {
 // Dark mode function
 function darkMode() {
 
-    var on = false;
-
-    if !on {
+    if (!on) {
         console.log("Dark mode activated");
 
 
         // Change background-color to dark 
-        document.getElementByTagName("body").style.backgroundColor("#202131");
-    }
+        document.body.style.backgroundColor = "#202131";
 
-    if on {
+        on = true;
+    } else {
         console.log("Dark mode deactivated");
 
         // Change background-color to light
-        document.getElementByTagName("body").style.backgroundColor("#B5B1E3");
+        document.body.style.backgroundColor = "#B5B1E3";
+
+        on = false;
     }
 
 
