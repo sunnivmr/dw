@@ -16,19 +16,26 @@ function closeNav() {
 }
 
 // Dark mode function
-function darkModeOn() {
+function darkMode() {
 
-    console.log("Dark mode activated");
+    var on = false;
+
+    if !on {
+        console.log("Dark mode activated");
 
 
-    // Change background-color to dark 
-    document.getElementByTagName("body").style.backgroundColor("#202131");
-}
+        // Change background-color to dark 
+        document.getElementByTagName("body").style.backgroundColor("#202131");
+    }
 
-function darkModeOff() {
+    if on {
+        console.log("Dark mode deactivated");
 
-    console.log("Dark mode deactivated");
+        // Change background-color to light
+        document.getElementByTagName("body").style.backgroundColor("#B5B1E3");
+    }
 
-    // Change background-color to light
-    document.getElementByTagName("body").style.backgroundColor("#B5B1E3");
+
+
+
 }
