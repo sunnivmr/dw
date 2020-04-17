@@ -341,15 +341,26 @@ nav {
         float: left;
     }
 
+    #about-grid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
     #about .stacked-title h2 {
         text-align: left;
         font-size: 120px;
         margin-top: 50px;
     }
 
+    #about .text {
+        width: 500px;
+        margin: 1em;
+    }
+
     #about .image {
         width: 300px;
         margin: 0;
+        float: right;
     }
 
 
