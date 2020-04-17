@@ -35,8 +35,8 @@ function setMode() {
 
     // Colors for background and text
     var dark = "#202131";
-    // var light = "#B5B1E3";
-    var light = "#AFC5E3";
+    var light = "#B5B1E3";
+    // var light = "#AFC5E3";
 
     var txtDark = "#9DD6FF";
     var txtLight = "#F3F5F7";

@@ -337,10 +337,18 @@ nav {
     #about-title {
         background-image: url(../img/titles/about_single_line.svg);
         width: 200px;
+        margin-left: 100px;
+        float: left;
+    }
+
+    #about .stacked-title h2 {
+        text-align: left;
+        font-size: 120px;
+        margin-top: 50px;
     }
 
     #about .image {
-        width: 500px;
+        width: 300px;
         margin: 0;
     }
 
