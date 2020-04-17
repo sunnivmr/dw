@@ -171,20 +171,29 @@ nav {
     height: 100%;
 }
 
-
-/* Home */
-
-.home-text {
+.text {
     text-align: left;
     margin: 5em auto;
     width: 300px;
 }
 
+/* Home */
+
 
 /* About */
 
-#about img {
+#about-title {
     width: 250px;
+}
+
+.image {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.image img {
+    width: 100%;
 }
 
 /* Portfolio */
@@ -269,7 +278,7 @@ nav {
 
 
     /* Home */
-    .home-text {
+    #home .text {
         display: none;
     }
 
