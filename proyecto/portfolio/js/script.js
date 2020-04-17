@@ -28,7 +28,8 @@ function setMode() {
 
     // Colors for background and text
     var dark = "#202131";
-    var light = "#B5B1E3";
+    // var light = "#B5B1E3";
+    var light = "#B6D67A";
 
     var txtDark = "#9DD6FF";
     var txtLight = "#F3F5F7";
@@ -52,12 +53,14 @@ function setMode() {
     var titleHomeDark = '../portfolio/img/titles/home_dark.svg';
     var titleAboutLight = '../img/titles/about.svg';
     var titleAboutDark = '../img/titles/about_dark.svg';
+    var titleAboutSingleLineLight = '../img/titles/about_single_line.svg';
+    var titleAboutSingleLineDark = '../img/titles/about_single_line_dark.svg';
     var titlePortfolioLight = '../img/titles/portfolio.svg';
     var titlePortfolioDark = '../img/titles/portfolio_dark.svg';
     var titleContactLight = '../img/titles/contact.svg';
     var titleContactDark = '../img/titles/contact_dark.svg';
 
-    var background, text, logoIcon, switchIcon, openIcon, closeIcon, titleHome, titleAbout, titlePortfolio, titleContact;
+    var background, text, logoIcon, switchIcon, openIcon, closeIcon, titleHome, titleAbout, titleAboutSingleLine, titlePortfolio, titleContact;
 
     if (mode == "dark") {
         background = dark;
@@ -68,6 +71,7 @@ function setMode() {
         closeIcon = closeDark;
         titleHome = titleHomeDark;
         titleAbout = titleAboutDark;
+        titleAboutSingleLine = titleAboutSingleLineDark;
         titlePortfolio = titlePortfolioDark;
         titleContact = titleContactDark;
 
@@ -80,11 +84,12 @@ function setMode() {
         closeIcon = closeLight;
         titleHome = titleHomeLight;
         titleAbout = titleAboutLight;
+        titleAboutSingleLine = titleAboutSingleLineLight;
         titlePortfolio = titlePortfolioLight;
         titleContact = titleContactLight;
     }
 
-    // Change backgorund-colors
+    // Change background-colors
     document.body.style.backgroundColor = background;
     document.getElementById("sidenav").style.backgroundColor = background;
     document.getElementById("navbar").style.backgroundColor = background;
@@ -107,9 +112,16 @@ function setMode() {
         titleHomeID.src = titleHome;
     }
 
+
     var titleAboutID = document.getElementById("about-title");
     if (titleAboutID) {
-        titleAboutID.src = titleAbout;
+
+        if (window.innerWidth < 768) {
+            titleAboutID.src = titleAbout;
+        } else {
+            titleAboutID.src = titleAboutSingleLine;
+        }
+
     }
 
     var titlePortfolioID = document.getElementById("portfolio-title");
