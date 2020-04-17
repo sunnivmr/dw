@@ -32,39 +32,45 @@ function setMode() {
     var txtDark = "#9DD6FF";
     var txtLight = "#F3F5F7";
 
+    var background, text;
 
-    if (mode == "dark") {
-
-        // Change background-colors
-        document.body.style.backgroundColor = dark;
-        document.getElementById("sidenav").style.backgroundColor = dark;
-
-        document.getElementById("navbar").style.backgroundColor = dark;
+    var logoLight =
 
 
-        // Change text-colors
-        document.body.style.color = txtDark;
+        if (mode == "dark") {
+            background = dark;
+            text = txtDark;
 
-        // Change background-image on title
-
-
-        // Change background-images on buttons
-
-    } else {
-
-        // Change background-colors 
-        document.body.style.backgroundColor = light;
-
-        document.getElementById("sidenav").style.backgroundColor = light;
-
-        document.getElementById("navbar").style.backgroundColor = light
-
-        // Change text-colors
-        document.body.style.color = txtLight;
+        } else {
+            background = light;
+            text = txtLight;
+        }
 
 
-        // Change background-image on title
+    document.body.style.backgroundColor = background;
+    document.getElementById("sidenav").style.backgroundColor = background;
 
+    document.getElementById("navbar").style.backgroundColor = background;
+
+
+    // Change text-colors
+    document.body.style.color = text;
+
+    // Change background-image on title
+
+
+    // Change logos
+    var logos = document.getElementsByClassName("logo");
+    var i;
+    for (i = 0; i < logos.length; i++) {
+        logos[i].style.backgroundColor = background;
+    }
+
+    // Change switches
+    var switches = document.getElementsByClassName("switch");
+    var i;
+    for (i = 0; i < switches.length; i++) {
+        switches[i].style.backgroundColor = background;
     }
 }
 
@@ -84,4 +90,34 @@ function darkMode() {
     // Set new current mode
     setMode();
 
+}
+
+// Changing colors of elements
+function colorChange(background, text) {
+    // Change background-colors
+    document.body.style.backgroundColor = background;
+    document.getElementById("sidenav").style.backgroundColor = background;
+
+    document.getElementById("navbar").style.backgroundColor = background;
+
+
+    // Change text-colors
+    document.body.style.color = text;
+
+    // Change background-image on title
+
+
+    // Change logos
+    var logos = document.getElementsByClassName("logo");
+    var i;
+    for (i = 0; i < logos.length; i++) {
+        logos[i].style.backgroundColor = background;
+    }
+
+    // Change switches
+    var switches = document.getElementsByClassName("switch");
+    var i;
+    for (i = 0; i < switches.length; i++) {
+        switches[i].style.backgroundColor = background;
+    }
 }
