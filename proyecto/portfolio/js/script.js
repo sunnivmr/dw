@@ -45,7 +45,7 @@ function mode() {
         document.body.style.color = txtDark;
 
         // Change background-image on title
-        document.getElementById("title").src = "/proyecto/portfolio/img/titles/home_dark.svg";
+
 
         // Change background-images on buttons
 
@@ -64,7 +64,6 @@ function mode() {
 
 
         // Change background-image on title
-        document.getElementById("title").src = "/proyecto/portfolio/img/titles/home.svg";
 
     }
 }
