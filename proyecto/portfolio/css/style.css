@@ -141,17 +141,12 @@ nav {
     transition: 0.3s;
 }
 
-.sidenav a:hover {
-    color: #540A90;
-}
-
 .sidenav .logo {
     display: block;
     height: 70px;
     width: 70px;
     margin: auto;
 }
-
 
 /* Page content */
 .content {

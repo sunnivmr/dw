@@ -93,6 +93,14 @@ function setMode() {
     // Change text-colors
     document.body.style.color = text;
 
+    // Change link-colors
+    var links = document.getElementsByTagName("a");
+    var i;
+    for (i = 0; i < links.length; i++) {
+        links[i].style.color = text;
+
+    }
+
     // Change title-images
     var titleHomeID = document.getElementById("home-title");
     if (titleHomeID) {
