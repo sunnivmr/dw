@@ -52,7 +52,8 @@ function setMode() {
 
     } else {
 
-        // Change background-colors document.body.style.backgroundColor = light;
+        // Change background-colors 
+        document.body.style.backgroundColor = light;
 
         document.getElementById("sidenav").style.backgroundColor = light;
 
@@ -76,7 +77,7 @@ function darkMode() {
         localStorage.setItem("mode", "light");
     } else {
 
-        mode = "dark"
+        mode = "dark";
         localStorage.setItem("mode", "dark");
     }
 
