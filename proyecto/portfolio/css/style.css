@@ -292,19 +292,7 @@ nav {
 
     .content {
         width: 100%;
-        position: relative;
-    }
 
-    #home .stacked-title {
-        width: 720px;
-        margin: auto;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        margin: 0;
-        padding: 0;
     }
 
     .text {
@@ -328,6 +316,16 @@ nav {
     /* Home */
     #home .text {
         display: none;
+    }
+
+    #home .stacked-title {
+        position: absolute;
+        top: 25%;
+    }
+
+    #home .stacked-title img {
+        position: absolute;
+        left: 100px;
     }
 
     /* About */

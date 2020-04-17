@@ -1,6 +1,13 @@
 // Dark mode variable
 var mode = localStorage.getItem("mode");
 
+// Check if we need to refresh the page for the About me-title
+window.addEventListener("resize", function () {
+    if (window.innerWidth < 768) {
+        location.reload();
+    }
+});
+
 
 // Function for opening side nav
 function openNav() {
@@ -29,7 +36,7 @@ function setMode() {
     // Colors for background and text
     var dark = "#202131";
     // var light = "#B5B1E3";
-    var light = "#B6D67A";
+    var light = "#AFC5E3";
 
     var txtDark = "#9DD6FF";
     var txtLight = "#F3F5F7";
@@ -51,10 +58,10 @@ function setMode() {
     // Title images
     var titleHomeLight = '../portfolio/img/titles/home.svg';
     var titleHomeDark = '../portfolio/img/titles/home_dark.svg';
-    var titleAboutLight = '../img/titles/about.svg';
-    var titleAboutDark = '../img/titles/about_dark.svg';
-    var titleAboutSingleLineLight = '../img/titles/about_single_line.svg';
-    var titleAboutSingleLineDark = '../img/titles/about_single_line_dark.svg';
+    var titleAboutLight = "url('../img/titles/about.svg')";
+    var titleAboutDark = "url('../img/titles/about_dark.svg')";
+    var titleAboutSingleLineLight = "url('../img/titles/about_single_line.svg')";
+    var titleAboutSingleLineDark = "url('../img/titles/about_single_line_dark.svg')";
     var titlePortfolioLight = '../img/titles/portfolio.svg';
     var titlePortfolioDark = '../img/titles/portfolio_dark.svg';
     var titleContactLight = '../img/titles/contact.svg';
@@ -115,13 +122,12 @@ function setMode() {
 
     var titleAboutID = document.getElementById("about-title");
     if (titleAboutID) {
-
-        if (window.innerWidth < 768) {
-            titleAboutID.src = titleAbout;
+        if (window.innerWidth > 768) {
+            titleAboutID.style.backgroundImage = titleAboutSingleLine;
         } else {
-            titleAboutID.src = titleAboutSingleLine;
-        }
+            titleAboutID.style.backgroundImage = titleAbout;
 
+        }
     }
 
     var titlePortfolioID = document.getElementById("portfolio-title");
