@@ -174,7 +174,7 @@ nav {
 .text {
     text-align: left;
     margin: 5em auto;
-    width: 300px;
+    width: 70%;
 }
 
 /* Home */
@@ -220,7 +220,31 @@ nav {
 
 
 /* Tablet version */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+
+    .stacked-title img {
+        width: 400px;
+    }
+
+    .stacked-title h2 {
+        font-size: 80px;
+    }
+
+    .text {
+        width: 60%;
+    }
+
+    /* About */
+
+    #about-title {
+        width: 300px;
+    }
+
+    #about div h2 {
+        margin-top: 0.1em;
+        font-size: 85px;
+    }
+}
 
 
 /* Desktop version */
