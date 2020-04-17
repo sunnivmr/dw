@@ -38,24 +38,30 @@ function setMode() {
     var switchLight = "url('/proyecto/portfolio/img/icons/mode_switch.svg')";
     var switchDark = "url('/proyecto/portfolio/img/icons/mode_switch_dark.svg')";
 
-    var background, text, logoIcon, switchIcon;
+    var openLight = "url('/proyecto/portfolio/img/icons/nav_open.svg')";
+    var openDark = "url('/proyecto/portfolio/img/icons/nav_open_dark.svg')";
+
+    var closeLight = "url('/proyecto/portfolio/img/icons/nav_close.svg')";
+    var closeDark = "url('/proyecto/portfolio/img/icons/nav_close_dark.svg')";
+
+    var background, text, logoIcon, switchIcon, openIcon, closeIcon;
 
     if (mode == "dark") {
         background = dark;
         text = txtDark;
         logoIcon = logoDark;
         switchIcon = switchDark;
+        openIcon = openDark;
+        closeIcon = closeDark;
 
     } else {
         background = light;
         text = txtLight;
         logoIcon = logoLight;
         switchIcon = switchLight;
+        openIcon = openLight;
+        closeIcon = closeLight;
     }
-
-    console.log(logoIcon);
-    console.log(switchIcon);
-
 
     document.body.style.backgroundColor = background;
     document.getElementById("sidenav").style.backgroundColor = background;
@@ -84,6 +90,12 @@ function setMode() {
         switches[i].style.backgroundColor = background;
         switches[i].style.backgroundImage = switchIcon;
     }
+
+    // Change open/close sidenav mobile
+    document.getElementById("open").style.backgroundColor = background;
+    document.getElementById("open").style.backgroundImage = openIcon;
+    document.getElementById("close").style.backgroundColor = background;
+    document.getElementById("close").style.backgroundImage = closeIcon;
 }
 
 // Turn on/off dark mode
@@ -102,34 +114,4 @@ function darkMode() {
     // Set new current mode
     setMode();
 
-}
-
-// Changing colors of elements
-function colorChange(background, text) {
-    // Change background-colors
-    document.body.style.backgroundColor = background;
-    document.getElementById("sidenav").style.backgroundColor = background;
-
-    document.getElementById("navbar").style.backgroundColor = background;
-
-
-    // Change text-colors
-    document.body.style.color = text;
-
-    // Change background-image on title
-
-
-    // Change logos
-    var logos = document.getElementsByClassName("logo");
-    var i;
-    for (i = 0; i < logos.length; i++) {
-        logos[i].style.backgroundColor = background;
-    }
-
-    // Change switches
-    var switches = document.getElementsByClassName("switch");
-    var i;
-    for (i = 0; i < switches.length; i++) {
-        switches[i].style.backgroundColor = background;
-    }
 }
