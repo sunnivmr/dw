@@ -26,25 +26,38 @@ function setMode() {
 
     var buttons = document.getElementsByClassName("button");
 
+    // Colors for background and text
     var dark = "#202131";
     var light = "#B5B1E3";
 
     var txtDark = "#9DD6FF";
     var txtLight = "#F3F5F7";
 
+    // Logos and switches
     var logoLight = "url('/proyecto/portfolio/img/icons/logo.svg')";
     var logoDark = "url('/proyecto/portfolio/img/icons/logo_dark.svg')";
 
     var switchLight = "url('/proyecto/portfolio/img/icons/mode_switch.svg')";
     var switchDark = "url('/proyecto/portfolio/img/icons/mode_switch_dark.svg')";
 
+    // Open/close buttons on side nav
     var openLight = "url('/proyecto/portfolio/img/icons/nav_open.svg')";
     var openDark = "url('/proyecto/portfolio/img/icons/nav_open_dark.svg')";
 
     var closeLight = "url('/proyecto/portfolio/img/icons/nav_close.svg')";
     var closeDark = "url('/proyecto/portfolio/img/icons/nav_close_dark.svg')";
 
-    var background, text, logoIcon, switchIcon, openIcon, closeIcon;
+    // Title images
+    var titleHomeLight = '../portfolio/img/titles/home.svg';
+    var titleHomeDark = '../portfolio/img/titles/home_dark.svg';
+    var titleAboutLight = '../img/titles/about.svg';
+    var titleAboutDark = '../img/titles/about_dark.svg';
+    var titlePortfolioLight = '../img/titles/portfolio.svg';
+    var titlePortfolioDark = '../img/titles/portfolio_dark.svg';
+    var titleContactLight = '../img/titles/contact.svg';
+    var titleContactDark = '../img/titles/contact_dark.svg';
+
+    var background, text, logoIcon, switchIcon, openIcon, closeIcon, titleHome, titleAbout, titlePortfolio, titleContact;
 
     if (mode == "dark") {
         background = dark;
@@ -53,6 +66,10 @@ function setMode() {
         switchIcon = switchDark;
         openIcon = openDark;
         closeIcon = closeDark;
+        titleHome = titleHomeDark;
+        titleAbout = titleAboutDark;
+        titlePortfolio = titlePortfolioDark;
+        titleContact = titleContactDark;
 
     } else {
         background = light;
@@ -61,8 +78,13 @@ function setMode() {
         switchIcon = switchLight;
         openIcon = openLight;
         closeIcon = closeLight;
+        titleHome = titleHomeLight;
+        titleAbout = titleAboutLight;
+        titlePortfolio = titlePortfolioLight;
+        titleContact = titleContactLight;
     }
 
+    // Change backgorund-colors
     document.body.style.backgroundColor = background;
     document.getElementById("sidenav").style.backgroundColor = background;
     document.getElementById("navbar").style.backgroundColor = background;
@@ -71,7 +93,26 @@ function setMode() {
     // Change text-colors
     document.body.style.color = text;
 
-    // Change background-image on title
+    // Change title-images
+    var titleHomeID = document.getElementById("home-title");
+    if (titleHomeID) {
+        titleHomeID.src = titleHome;
+    }
+
+    var titleAboutID = document.getElementById("about-title");
+    if (titleAboutID) {
+        titleAboutID.src = titleAbout;
+    }
+
+    var titlePortfolioID = document.getElementById("portfolio-title");
+    if (titlePortfolioID) {
+        titlePortfolioID.src = titlePortfolio;
+    }
+
+    var titleContactID = document.getElementById("contact-title");
+    if (titleContactID) {
+        titleContactID.src = titleContact;
+    }
 
 
     // Change logos
