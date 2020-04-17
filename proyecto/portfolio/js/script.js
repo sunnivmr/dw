@@ -1,5 +1,6 @@
 // Dark mode variable
-var on;
+var mode = localStorage.getItem("mode");
+
 
 // Function for opening side nav
 function openNav() {
@@ -19,7 +20,9 @@ function closeNav() {
 }
 
 // Function for setting correct mode on load of web page
-function mode() {
+function setMode() {
+
+    console.log("Current mode:", mode);
 
     var buttons = document.getElementsByClassName("button");
 
@@ -30,9 +33,7 @@ function mode() {
     var txtLight = "#F3F5F7";
 
 
-    if (on) {
-        console.log("Dark mode activated");
-
+    if (mode == "dark") {
 
         // Change background-colors
         document.body.style.backgroundColor = dark;
@@ -50,10 +51,8 @@ function mode() {
         // Change background-images on buttons
 
     } else {
-        console.log("Dark mode deactivated");
 
-        // Change background-colors
-        document.body.style.backgroundColor = light;
+        // Change background-colors document.body.style.backgroundColor = light;
 
         document.getElementById("sidenav").style.backgroundColor = light;
 
@@ -72,13 +71,16 @@ function mode() {
 function darkMode() {
 
     // Change current mode
-    if (on) {
-        on = false;
+    if (mode == "dark") {
+        mode = "light";
+        localStorage.setItem("mode", "light");
     } else {
-        on = true;
+
+        mode = "dark"
+        localStorage.setItem("mode", "dark");
     }
 
     // Set new current mode
-    mode();
+    setMode();
 
 }
