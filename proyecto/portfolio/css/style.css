@@ -186,7 +186,7 @@ nav {
     width: 250px;
 }
 
-#about .stacked-title div {
+#about-title {
     background: url(../img/titles/about.svg) no-repeat center;
     width: 400px;
     height: 210px;
@@ -336,8 +336,8 @@ nav {
         margin: auto;
     }
 
-    #about .stacked-title img {
-        src: url(../img/titles/about_single_line.svg);
+    #about-title {
+        background-image: url(../img/titles/about_single_line.svg);
         width: 200px;
     }
 
