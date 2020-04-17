@@ -32,24 +32,33 @@ function setMode() {
     var txtDark = "#9DD6FF";
     var txtLight = "#F3F5F7";
 
-    var background, text;
+    var logoLight = "url('/proyecto/portfolio/img/icons/logo.svg')";
+    var logoDark = "url('/proyecto/portfolio/img/icons/logo_dark.svg')";
 
-    var logoLight =
+    var switchLight = "url('/proyecto/portfolio/img/icons/mode_switch.svg')";
+    var switchDark = "url('/proyecto/portfolio/img/icons/mode_switch_dark.svg')";
 
+    var background, text, logoIcon, switchIcon;
 
-        if (mode == "dark") {
-            background = dark;
-            text = txtDark;
+    if (mode == "dark") {
+        background = dark;
+        text = txtDark;
+        logoIcon = logoDark;
+        switchIcon = switchDark;
 
-        } else {
-            background = light;
-            text = txtLight;
-        }
+    } else {
+        background = light;
+        text = txtLight;
+        logoIcon = logoLight;
+        switchIcon = switchLight;
+    }
+
+    console.log(logoIcon);
+    console.log(switchIcon);
 
 
     document.body.style.backgroundColor = background;
     document.getElementById("sidenav").style.backgroundColor = background;
-
     document.getElementById("navbar").style.backgroundColor = background;
 
 
@@ -64,6 +73,8 @@ function setMode() {
     var i;
     for (i = 0; i < logos.length; i++) {
         logos[i].style.backgroundColor = background;
+        logos[i].style.backgroundImage = logoIcon;
+
     }
 
     // Change switches
@@ -71,6 +82,7 @@ function setMode() {
     var i;
     for (i = 0; i < switches.length; i++) {
         switches[i].style.backgroundColor = background;
+        switches[i].style.backgroundImage = switchIcon;
     }
 }
 
