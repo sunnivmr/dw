@@ -339,10 +339,7 @@ nav {
         float: left;
     }
 
-    #about-grid {
-        display: grid;
-        grid-template-columns: auto;
-    }
+    #about-grid {}
 
     #about .stacked-title h2 {
         text-align: left;
