@@ -413,6 +413,16 @@ nav {
         align-self: flex-start;
     }
 
+    /* Portfolio */
+    #portfolio {
+        display: grid;
+    }
+
+
+    /* Contact */
+    #contact {
+        display: grid;
+    }
 }
 
 /* Big desktop version */
