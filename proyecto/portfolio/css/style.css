@@ -418,10 +418,18 @@ nav {
         display: grid;
     }
 
+    #portfolio .stacked-title {
+        transform: rotate(-90deg);
+    }
+
 
     /* Contact */
     #contact {
         display: grid;
+    }
+
+    #contact {
+        transform: rotate(-90deg);
     }
 }
 
