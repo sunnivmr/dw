@@ -280,8 +280,36 @@ nav {
 
     /* Nav */
 
+    /* Nav */
+
     nav {
-        display: none;
+        display: block;
+        margin-right: 5em;
+        font-size: 1em;
+        text-align: right;
+        float: right;
+        padding: 1em 0;
+    }
+
+    nav ul {
+        list-style: none;
+        padding-left: 2em;
+    }
+
+    nav ul li {
+        margin-top: 0.5em;
+        margin-bottom: 1.5em;
+    }
+
+    nav ul li a {
+        opacity: 0.5;
+        color: #F3F5F7;
+        position: relative;
+    }
+
+    nav ul li a:hover {
+        opacity: 1;
+        color: #F3F5F7;
     }
 
     .navbar {
@@ -385,37 +413,6 @@ nav {
         align-self: flex-start;
     }
 
-
-
-    nav {
-        display: block;
-        margin-right: 5em;
-        font-size: 1em;
-        text-align: right;
-        float: right;
-        padding: 1em 0;
-    }
-
-    nav ul {
-        list-style: none;
-        padding-left: 2em;
-    }
-
-    nav ul li {
-        margin-top: 0.5em;
-        margin-bottom: 1.5em;
-    }
-
-    nav ul li a {
-        opacity: 0.5;
-        color: #F3F5F7;
-        position: relative;
-    }
-
-    nav ul li a:hover {
-        opacity: 1;
-        color: #F3F5F7;
-    }
 }
 
 /* Big desktop version */
