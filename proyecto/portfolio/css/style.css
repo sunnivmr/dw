@@ -162,7 +162,7 @@ nav {
 .switch-button {
     display: none;
     position: absolute;
-    padding: 2em;
+    margin: 2em;
     left: 0;
     bottom: 0;
     width: 110px;
@@ -472,7 +472,9 @@ nav {
     }
 
     /* Portfolio */
-    #portfolio {}
+    #portfolio {
+        display: grid;
+    }
 
     #portfolio .stacked-title {
         transform: rotate(-90deg);
