@@ -301,7 +301,8 @@ nav {
     font-size: small;
 }
 
-#contact form > input {
+#contact form > input,
+textarea {
     display: inline-block;
     margin-bottom: 1em;
     width: 100%;
@@ -328,6 +329,10 @@ nav {
     border: none;
     cursor: pointer;
     opacity: 1;
+}
+
+#contact form > #message {
+    height: 100px;
 }
 
 #popup {
