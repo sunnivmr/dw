@@ -351,6 +351,17 @@ nav {
     font-weight: 400;
 }
 
+#closePopup {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: small;
+    opacity: 0.75;
+}
+
+#closePopup:hover {
+    opacity: 1;
+}
+
 
 /* Tablet version */
 @media only screen and (min-width: 600px) {
