@@ -494,7 +494,7 @@ nav {
         display: grid;
     }
 
-    #contact {
+    #contact .stacked-title {
         transform: rotate(-90deg);
     }
 }
