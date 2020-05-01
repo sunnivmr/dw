@@ -293,6 +293,10 @@ nav {
     top: 100px;
 }
 
+#contact form > * {
+    display: inline-block;
+}
+
 
 /* Tablet version */
 @media only screen and (min-width: 600px) {
@@ -391,6 +395,7 @@ nav {
     .content {
         width: 100%;
         display: grid;
+        clear: both;
     }
 
     .text {
@@ -497,6 +502,8 @@ nav {
     #contact .stacked-title {
         transform: rotate(-90deg);
     }
+
+
 }
 
 /* Big desktop version */
