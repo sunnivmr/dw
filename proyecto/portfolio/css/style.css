@@ -319,8 +319,6 @@ nav {
     opacity: 0.9;
 }
 
-
-
 #contact form > input[type=submit]:hover {
     width: 25%;
     font-size: small;
@@ -332,6 +330,26 @@ nav {
     opacity: 1;
 }
 
+#popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: small;
+    height: 120px;
+    width: 300px;
+    padding: 1em;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+#popup > * {
+    display: block;
+}
+
+#popup > h5 {
+    font-weight: 400;
+}
 
 
 /* Tablet version */
