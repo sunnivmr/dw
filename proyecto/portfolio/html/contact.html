@@ -61,7 +61,7 @@
         </div>
 
         <div class="form" id="form">
-            <form action="#">
+            <form onsubmit="sendMessage()">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name">
                 <label for="email">Email</label>
@@ -73,7 +73,7 @@
         </div>
 
         <div id="popup">
-            <button id="closePopup">x</button>
+            <button id="closePopup" onclick="closePopup()">x</button>
             <h5>Thank you for your message!</h5>
         </div>
 
