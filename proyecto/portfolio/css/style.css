@@ -274,12 +274,17 @@ nav {
     cursor: pointer;
 }
 
+.slide-button img {
+    margin: auto;
+    display: block;
+}
+
 #prev {
-    left: -40px;
+    left: 0;
 }
 
 #next {
-    right: 20px;
+    right: 0;
 }
 
 
