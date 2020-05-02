@@ -211,9 +211,7 @@ nav {
 
 
 /* Portfolio */
-#portfolio img {
-    width: 420px;
-}
+#portfolio img {}
 
 #portfolio h2 {
     font-size: 80px;
@@ -265,25 +263,22 @@ nav {
 }
 
 /* Slideshow buttons */
-.slide-buttons {
-    z-index: 900;
-    top: 50%;
-    position: absolute;
-}
-
 .slide-button {
     width: 60px;
     height: 60px;
-    cursor: pointer;
+    z-index: 900;
+    top: 50%;
+    position: absolute;
     transform: translateY(-30px);
+    cursor: pointer;
 }
 
 #prev {
-    left: 0;
+    left: 10px;
 }
 
 #next {
-    right: 0;
+    right: 10px;
 }
 
 
