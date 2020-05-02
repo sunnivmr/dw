@@ -3,9 +3,9 @@ function prevSlide() {
     var slides = document.getElementById("slides");
     var images = document.getElementsByClassName("slide");
     var firstImage = images[0];
-    var lastImage = images[images.length];
+    var lastImage = images[images.length - 1];
     slides.style.marginLeft = "-600%";
-    slides.insertBefore(firstImage, firstImage.nextSibling);
+    slides.insertBefore(lastImage, firstImage);
 }
 
 // Next slide
