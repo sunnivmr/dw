@@ -4,7 +4,6 @@ function prevSlide() {
     var images = document.getElementsByClassName("slide");
     var firstImage = images[0];
     var lastImage = images[images.length - 1];
-    slides.style.marginLeft = "-100%";
     slides.insertBefore(lastImage, firstImage);
 }
 
