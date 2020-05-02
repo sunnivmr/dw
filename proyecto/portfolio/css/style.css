@@ -229,9 +229,12 @@ nav {
     position: relative;
 }
 
-.slide {
+.slides {
     display: flex;
+    width: 700%;
 }
+
+.slide {}
 
 .slide img {
     width: 100%;
