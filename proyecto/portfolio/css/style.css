@@ -568,6 +568,11 @@ textarea {
         transform: rotate(-90deg);
     }
 
+    .slideshow {
+        height: 600px;
+        width: 600px;
+    }
+
     .slide-button {
         top: 50%;
         transform: translateY(-30px);
