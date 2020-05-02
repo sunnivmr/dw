@@ -270,7 +270,6 @@ nav {
     margin-top: 1em;
     width: 60px;
     height: 60px;
-    z-index: 900;
     position: absolute;
     cursor: pointer;
 }

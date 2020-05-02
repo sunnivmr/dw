@@ -1,11 +1,16 @@
-var slides = document.getElementById("slides");
+// Get slides-element
+function getSlides() {
+    return document.getElementById("slides");
+}
 
 // Prev slide
 function prevSlide() {
-    slides.style.marginLeft("-" + 100 + "%");
+    slides = getSlides();
+    slides.style.marginLeft = "-100%";
 }
 
 // Next slide
 function nextSlide() {
-    slides.style.marginLeft("+" + 100 + "%");
+    slides = getSlides();
+    slides.style.marginLeft = "100%";
 }
