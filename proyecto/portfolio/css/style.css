@@ -176,6 +176,7 @@ nav {
 
 .text {
     text-align: left;
+    font-size: small;
     margin: 5em auto;
     width: 70%;
 }
