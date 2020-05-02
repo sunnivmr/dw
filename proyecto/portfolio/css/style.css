@@ -263,6 +263,7 @@ nav {
 }
 
 /* Slideshow buttons */
+
 .slide-button {
     width: 60px;
     height: 60px;
@@ -274,11 +275,11 @@ nav {
 }
 
 #prev {
-    left: 10px;
+    left: -40px;
 }
 
 #next {
-    right: 10px;
+    right: 20px;
 }
 
 
