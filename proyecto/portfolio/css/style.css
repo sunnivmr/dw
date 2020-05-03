@@ -469,7 +469,6 @@ textarea {
 
     .content {
         width: 100%;
-        display: grid;
         clear: both;
     }
 
@@ -478,11 +477,11 @@ textarea {
     }
 
     .stacked-title img {
-        width: 470px;
+        width: 400px;
     }
 
     .stacked-title h2 {
-        font-size: 120px;
+        font-size: 80px;
         white-space: nowrap;
     }
 
@@ -560,21 +559,19 @@ textarea {
     }
 
     /* Portfolio */
-    #portfolio {
-        display: grid;
-    }
-
-    #portfolio .stacked-title {
-        transform: rotate(-90deg);
-    }
+    #portfolio .stacked-title {}
 
     .slideshow {
         height: 600px;
-        width: 600px;
+        width: 500px;
+    }
+
+    .slide img {
+        width: 75%;
     }
 
     .slide-button {
-        top: 50%;
+        top: 33%;
         transform: translateY(-30px);
     }
 
@@ -612,6 +609,10 @@ textarea {
         grid-column: 2 / 3;
         grid-row: 2 / 4;
         align-self: flex-end;
+    }
+
+    #portfolio .stacked-title {
+        transform: rotate(-90deg);
     }
 
 

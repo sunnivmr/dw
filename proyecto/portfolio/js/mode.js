@@ -38,6 +38,12 @@ function setMode() {
     var closeLight = "url('/proyecto/portfolio/img/icons/nav_close.svg')";
     var closeDark = "url('/proyecto/portfolio/img/icons/nav_close_dark.svg')";
 
+    // Portfolio buttons
+    var prevLight = '../proyecto/portfolio/img/icons/arrow_left.svg';
+    var prevDark = '../proyecto/portfolio/img/icons/arrow_left_dark.svg';
+    var nextLight = '../proyecto/portfolio/img/icons/arrow_right.svg';
+    var nextDark = '../proyecto/portfolio/img/icons/arrow_right_dark.svg';
+
     // Title images
     var titleHomeLight = '../portfolio/img/titles/home.svg';
     var titleHomeDark = '../portfolio/img/titles/home_dark.svg';
@@ -50,7 +56,8 @@ function setMode() {
     var titleContactLight = '../img/titles/contact.svg';
     var titleContactDark = '../img/titles/contact_dark.svg';
 
-    var background, text, logoIcon, switchIcon, openIcon, closeIcon, titleHome, titleAbout, titleAboutSingleLine, titlePortfolio, titleContact;
+    // Variables for changing colors and images
+    var background, text, logoIcon, switchIcon, openIcon, closeIcon, prev, next, titleHome, titleAbout, titleAboutSingleLine, titlePortfolio, titleContact;
 
     if (mode == "dark") {
         background = dark;
@@ -59,6 +66,8 @@ function setMode() {
         switchIcon = switchDark;
         openIcon = openDark;
         closeIcon = closeDark;
+        prev = prevDark;
+        next = nextDark;
         titleHome = titleHomeDark;
         titleAbout = titleAboutDark;
         titleAboutSingleLine = titleAboutSingleLineDark;
@@ -72,6 +81,8 @@ function setMode() {
         switchIcon = switchLight;
         openIcon = openLight;
         closeIcon = closeLight;
+        prev = prevLight;
+        next = nextLight;
         titleHome = titleHomeLight;
         titleAbout = titleAboutLight;
         titleAboutSingleLine = titleAboutSingleLineLight;
@@ -132,6 +143,12 @@ function setMode() {
         logos[i].style.backgroundImage = logoIcon;
 
     }
+
+    // Change prev and next switches
+    var prevID = document.getElementById("prev");
+    var nextID = document.getElementById("next");
+    prevID.src = prev;
+    nextID.src = next;
 
     // Change switches
     var switches = document.getElementsByClassName("switch");
