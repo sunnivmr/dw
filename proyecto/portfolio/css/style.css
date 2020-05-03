@@ -276,6 +276,7 @@ nav {
 .slide-button img {
     margin: auto;
     display: block;
+    height: 100%;
 }
 
 #prev {

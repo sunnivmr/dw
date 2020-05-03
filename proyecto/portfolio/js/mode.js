@@ -39,10 +39,10 @@ function setMode() {
     var closeDark = "url('/proyecto/portfolio/img/icons/nav_close_dark.svg')";
 
     // Portfolio buttons
-    var prevLight = '../proyecto/portfolio/img/icons/arrow_left.svg';
-    var prevDark = '../proyecto/portfolio/img/icons/arrow_left_dark.svg';
-    var nextLight = '../proyecto/portfolio/img/icons/arrow_right.svg';
-    var nextDark = '../proyecto/portfolio/img/icons/arrow_right_dark.svg';
+    var prevLight = '../img/icons/arrow_left.svg';
+    var prevDark = '../img/icons/arrow_left_dark.svg';
+    var nextLight = '../img/icons/arrow_right.svg';
+    var nextDark = '../img/icons/arrow_right_dark.svg';
 
     // Title images
     var titleHomeLight = '../portfolio/img/titles/home.svg';
@@ -59,6 +59,7 @@ function setMode() {
     // Variables for changing colors and images
     var background, text, logoIcon, switchIcon, openIcon, closeIcon, prev, next, titleHome, titleAbout, titleAboutSingleLine, titlePortfolio, titleContact;
 
+    // Change variables depending on mode
     if (mode == "dark") {
         background = dark;
         text = txtDark;
@@ -98,6 +99,7 @@ function setMode() {
 
     // Change text-colors
     document.body.style.color = text;
+
 
     // Change link-colors
     var links = document.getElementsByTagName("a");
@@ -145,10 +147,14 @@ function setMode() {
     }
 
     // Change prev and next switches
-    var prevID = document.getElementById("prev");
-    var nextID = document.getElementById("next");
-    prevID.src = prev;
-    nextID.src = next;
+    var prevID = document.getElementById("btnPrev");
+    var nextID = document.getElementById("btnNext");
+    if (prevID) {
+        prevID.src = prev;
+    }
+    if (nextID) {
+        nextID.src = next;
+    }
 
     // Change switches
     var switches = document.getElementsByClassName("switch");
