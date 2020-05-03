@@ -268,7 +268,7 @@ nav {
 .slide-button {
     margin-top: 1em;
     width: 60px;
-    height: 60px;
+    height: 50px;
     position: absolute;
     cursor: pointer;
 }
