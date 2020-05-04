@@ -582,10 +582,6 @@ textarea {
         display: grid;
     }
 
-    #contact .stacked-title {
-        transform: rotate(-90deg);
-    }
-
     #contact form {}
 
 
@@ -612,7 +608,8 @@ textarea {
         align-self: flex-end;
     }
 
-    #portfolio .stacked-title {
+    #portfolio .stacked-title,
+    #contact .stacked-title {
         transform: rotate(-90deg);
     }
 
