@@ -200,6 +200,10 @@ nav {
     font-size: 80px;
 }
 
+#about .text {
+    padding-top: 3.5em;
+}
+
 .image {
     width: 70%;
     margin: auto;
