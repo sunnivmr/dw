@@ -49,15 +49,13 @@ function setMode() {
     var titleHomeDark = '../portfolio/img/titles/home_dark.svg';
     var titleAboutLight = "url('../img/titles/about.svg')";
     var titleAboutDark = "url('../img/titles/about_dark.svg')";
-    var titleAboutSingleLineLight = "url('../img/titles/about_single_line.svg')";
-    var titleAboutSingleLineDark = "url('../img/titles/about_single_line_dark.svg')";
     var titlePortfolioLight = '../img/titles/portfolio.svg';
     var titlePortfolioDark = '../img/titles/portfolio_dark.svg';
     var titleContactLight = '../img/titles/contact.svg';
     var titleContactDark = '../img/titles/contact_dark.svg';
 
     // Variables for changing colors and images
-    var background, text, logoIcon, switchIcon, openIcon, closeIcon, prev, next, titleHome, titleAbout, titleAboutSingleLine, titlePortfolio, titleContact;
+    var background, text, logoIcon, switchIcon, openIcon, closeIcon, prev, next, titleHome, titleAbout, titlePortfolio, titleContact;
 
     // Change variables depending on mode
     if (mode == "dark") {
@@ -71,7 +69,6 @@ function setMode() {
         next = nextDark;
         titleHome = titleHomeDark;
         titleAbout = titleAboutDark;
-        titleAboutSingleLine = titleAboutSingleLineDark;
         titlePortfolio = titlePortfolioDark;
         titleContact = titleContactDark;
 
@@ -86,7 +83,6 @@ function setMode() {
         next = nextLight;
         titleHome = titleHomeLight;
         titleAbout = titleAboutLight;
-        titleAboutSingleLine = titleAboutSingleLineLight;
         titlePortfolio = titlePortfolioLight;
         titleContact = titleContactLight;
     }
@@ -118,12 +114,8 @@ function setMode() {
 
     var titleAboutID = document.getElementById("about-title");
     if (titleAboutID) {
-        if (window.innerWidth > 768) {
-            titleAboutID.style.backgroundImage = titleAboutSingleLine;
-        } else {
-            titleAboutID.style.backgroundImage = titleAbout;
+        titleAboutID.style.backgroundImage = titleAbout;
 
-        }
     }
 
     var titlePortfolioID = document.getElementById("portfolio-title");
