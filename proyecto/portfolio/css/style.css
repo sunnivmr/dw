@@ -186,18 +186,6 @@ nav {
 
 
 /* About */
-#about-title {
-    width: 250px;
-}
-
-#about-title {
-    background: url(../img/titles/about.svg) no-repeat center;
-    width: 400px;
-    height: 210px;
-    display: block;
-    margin: auto;
-
-}
 
 .image {
     width: 70%;
@@ -511,7 +499,6 @@ textarea {
     }
 
     #about-title {
-        background-image: url(../img/titles/about_single_line.svg);
         width: 200px;
         margin-left: 100px;
         float: left;
