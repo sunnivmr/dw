@@ -186,6 +186,19 @@ nav {
 
 
 /* About */
+#about-title {
+    width: 300px;
+}
+
+#about .stacked-title div {
+    width: 420px;
+    height: 240px;
+}
+
+#about div h2 {
+    margin-top: 0.1em;
+    font-size: 80px;
+}
 
 .image {
     width: 70%;
@@ -199,7 +212,6 @@ nav {
 
 
 /* Portfolio */
-#portfolio img {}
 
 #portfolio h2 {
     font-size: 80px;
@@ -278,12 +290,12 @@ nav {
 
 /* Contact */
 #contact img {
-    width: 420px;
+    width: 350px;
 }
 
 #contact h2 {
     font-size: 80px;
-    top: 100px;
+    top: 70px;
 }
 
 #contact form {
