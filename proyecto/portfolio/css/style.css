@@ -590,24 +590,6 @@ textarea {
 /* Big desktop version */
 @media only screen and (min-width: 1000px) {
 
-    /* About */
-    #about {
-        width: 60%;
-    }
-
-    #about-grid {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 0.85fr 100px;
-    }
-
-    #about .image {
-        width: 300px;
-        margin: 0;
-        grid-column: 2 / 3;
-        grid-row: 2 / 4;
-        align-self: flex-end;
-    }
-
     #portfolio .stacked-title,
     #contact .stacked-title {
         transform: rotate(-90deg);
