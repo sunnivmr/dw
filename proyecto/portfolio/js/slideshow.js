@@ -16,3 +16,18 @@ function nextSlide() {
     slides.style.marginLeft = 0;
     slides.insertBefore(firstImage, lastImage.nextSibling);
 }
+
+// Determine number of slides
+function setSlideNumbers() {
+    var slideNumbers = document.getElementsByClassName("slide-number");
+    var total = slideNumbers.length;
+
+    var i;
+    for (i = 0; i < total; i++) {
+
+        var slideNumber = i + 1;
+        slideNumbers[i].innerHTML = slideNumber + " / " + total;
+
+    }
+
+}
