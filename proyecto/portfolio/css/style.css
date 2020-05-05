@@ -258,13 +258,10 @@ nav {
 }
 
 .slide-text {
-    display: none;
     color: #f2f2f2;
-    background-color: rgba(0, 0, 0, 0.33);
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+    font-size: small;
+    padding: 1em;
+    margin: auto;
 }
 
 /* Slideshow buttons */
