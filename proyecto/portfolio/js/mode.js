@@ -1,14 +1,6 @@
 // Dark mode variable
 var mode = localStorage.getItem("mode");
 
-// Check if we need to refresh the page for the About me-title
-window.addEventListener("resize", function () {
-    if (window.innerWidth < 768) {
-        location.reload();
-    }
-});
-
-
 // Function for setting correct mode on load of web page
 function setMode() {
 
@@ -49,8 +41,8 @@ function setMode() {
     // Title images
     var titleHomeLight = '../portfolio/img/titles/home.svg';
     var titleHomeDark = '../portfolio/img/titles/home_dark.svg';
-    var titleAboutLight = "url('../img/titles/about.svg')";
-    var titleAboutDark = "url('../img/titles/about_dark.svg')";
+    var titleAboutLight = '../img/titles/about.svg';
+    var titleAboutDark = '../img/titles/about_dark.svg';
     var titlePortfolioLight = '../img/titles/portfolio.svg';
     var titlePortfolioDark = '../img/titles/portfolio_dark.svg';
     var titleContactLight = '../img/titles/contact.svg';
@@ -118,7 +110,7 @@ function setMode() {
 
     var titleAboutID = document.getElementById("about-title");
     if (titleAboutID) {
-        titleAboutID.style.backgroundImage = titleAbout;
+        titleAboutID.src = titleAbout;
 
     }
 
