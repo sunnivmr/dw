@@ -626,4 +626,32 @@ textarea {
 }
 
 /* Big desktop version */
-@media only screen and (min-width: 1000px) {}
+@media only screen and (min-width: 1000px) {
+
+    /* Portfolio */
+    #portfolio .stacked-title {
+        left: -4em;
+    }
+
+    #portfolio .stacked-title img {
+        width: 450px;
+    }
+
+    #portfolio .stacked-title h2 {
+        font-size: 115px;
+    }
+
+    /* Contact */
+    #contact .stacked-title {
+        left: 5em;
+    }
+
+    #contact .stacked-title img {
+        width: 450px;
+    }
+
+    #contact .stacked-title h2 {
+        font-size: 115px;
+        top: 0.8em;
+    }
+}

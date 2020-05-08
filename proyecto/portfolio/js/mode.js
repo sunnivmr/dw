@@ -161,8 +161,11 @@ function setMode() {
     }
 
     // Change form-button
-    document.getElementById("send").style.color = background;
-    document.getElementById("send").style.backgroundColor = text;
+    var sendID = document.getElementById("send");
+    if (sendID) {
+        send.style.color = background;
+        send.style.backgroundColor = text;
+    }
 
 
     // Change open/close sidenav mobile
