@@ -316,7 +316,7 @@ textarea {
     height: 25px;
 }
 
-#contact form > input[type=submit] {
+#contact #send {
     width: 25%;
     font-size: small;
     background-color: #540A90;
@@ -327,7 +327,7 @@ textarea {
     opacity: 0.9;
 }
 
-#contact form > input[type=submit]:hover {
+#contact #send:hover {
     width: 25%;
     font-size: small;
     background-color: #540A90;
