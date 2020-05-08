@@ -427,8 +427,6 @@ textarea {
 
     /* Nav */
 
-    /* Nav */
-
     nav {
         display: block;
         margin-right: 5em;
@@ -505,7 +503,24 @@ textarea {
         display: none;
     }
 
+
     /* About */
+    #about-grid {
+        width: 60%;
+        top: 7em;
+        margin: auto;
+        position: absolute;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 1.5em;
+        grid-template rows: auto auto;
+        justify-content: center;
+    }
+
+    #about .stacked-title {
+        grid-column: 1 / 5;
+    }
+
     #about {
         width: 70%;
         margin: auto;
