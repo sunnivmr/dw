@@ -608,13 +608,13 @@ textarea {
     #contact .stacked-title {
         height: 100px;
         top: 15em;
-        left: -2em;
+        left: 3em;
     }
 
-    #contact .form {
+    .form {
+        position: relative;
         top: 9em;
         left: -5em;
-        margin: 0;
     }
 
     #portfolio .stacked-title,
