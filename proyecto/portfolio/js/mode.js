@@ -19,7 +19,9 @@ function setMode() {
     // Colors for background and text
     var dark = "#202131";
     var light = "#B5B1E3";
-    // var light = "#AFC5E3";
+
+    var txtAccentDark = "#1D97EF";
+    var txtAccentLight = "#F3F5F7";
 
     var txtDark = "#9DD6FF";
     var txtLight = "#F3F5F7";
@@ -55,12 +57,13 @@ function setMode() {
     var titleContactDark = '../img/titles/contact_dark.svg';
 
     // Variables for changing colors and images
-    var background, text, logoIcon, switchIcon, openIcon, closeIcon, prev, next, titleHome, titleAbout, titlePortfolio, titleContact;
+    var background, text, accent, logoIcon, switchIcon, openIcon, closeIcon, prev, next, titleHome, titleAbout, titlePortfolio, titleContact;
 
     // Change variables depending on mode
     if (mode == "dark") {
         background = dark;
         text = txtDark;
+        accent = txtAccentDark;
         logoIcon = logoDark;
         switchIcon = switchDark;
         openIcon = openDark;
@@ -75,6 +78,7 @@ function setMode() {
     } else {
         background = light;
         text = txtLight;
+        accent = txtAccentLight;
         logoIcon = logoLight;
         switchIcon = switchLight;
         openIcon = openLight;
@@ -155,6 +159,11 @@ function setMode() {
         switches[i].style.backgroundColor = background;
         switches[i].style.backgroundImage = switchIcon;
     }
+
+    // Change form-button
+    document.getElementById("send").style.color = background;
+    document.getElementById("send").style.backgroundColor = text;
+
 
     // Change open/close sidenav mobile
     document.getElementById("open").style.backgroundColor = background;

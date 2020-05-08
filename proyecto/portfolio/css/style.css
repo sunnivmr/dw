@@ -332,11 +332,11 @@ textarea {
     margin: 0;
     padding: 0;
     float: right;
+    opacity: 1;
 }
 
 #contact #send:hover {
-    background-color: #540A90;
-    color: #B5B1E3;
+    opacity: 0.85;
 }
 
 #contact form > #message {
