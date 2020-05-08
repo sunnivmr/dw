@@ -504,6 +504,14 @@ textarea {
         margin-top: 0;
     }
 
+    #home .stacked-title img {
+        width: 450px;
+    }
+
+    #home .stacked-title h2 {
+        font-size: 100px;
+    }
+
     #home .text {
         display: none;
     }
@@ -624,6 +632,15 @@ textarea {
 
 /* Big desktop version */
 @media only screen and (min-width: 1000px) {
+
+    /* Home */
+    #home .stacked-title img {
+        width: 500px;
+    }
+
+    #home .stacked-title h2 {
+        font-size: 130px;
+    }
 
     /* Portfolio */
     #portfolio .stacked-title {
