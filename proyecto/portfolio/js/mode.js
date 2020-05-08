@@ -9,7 +9,7 @@ function setMode() {
     var buttons = document.getElementsByClassName("button");
 
     // Colors for background and text
-    var dark = "#202131";
+    var dark = "#131422";
     var light = "#B5B1E3";
 
     var txtAccentDark = "#1D97EF";
