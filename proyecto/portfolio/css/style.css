@@ -505,35 +505,32 @@ textarea {
 
 
     /* About */
-    #about-grid {
-        width: 60%;
-        top: 7em;
+    #about {
+        width: 50%;
         margin: auto;
+    }
+
+    #about-grid {
+        top: 7em;
+        width: 100%;
         position: absolute;
         display: grid;
         grid-template-columns: auto auto;
         grid-gap: 1.5em;
         grid-template rows: auto auto;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     #about .stacked-title {
         grid-column: 1 / 5;
     }
 
-    #about {
-        width: 70%;
-        margin: auto;
-    }
-
     #about .text {
-        float: left;
         width: 200px;
     }
 
     #about .image {
-        width: 350px;
-        float: right;
+        width: 200px;
     }
 
     /* Portfolio */
