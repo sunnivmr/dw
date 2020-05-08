@@ -556,7 +556,7 @@ textarea {
         top: 9em;
         left: -5em;
         height: 500px;
-        width: 450px;
+        width: 500px;
         margin: 0;
     }
 
@@ -565,8 +565,18 @@ textarea {
     }
 
     .slide-button {
-        top: 33%;
+        top: 40%;
+        width: 75px;
+        height: 75px;
         transform: translateY(-30px);
+    }
+
+    #next {
+        right: -0.5em;
+    }
+
+    #prev {
+        left: -0.5em;
     }
 
 
