@@ -434,6 +434,7 @@ textarea {
         text-align: right;
         float: right;
         padding: 1em 0;
+        z-index: 1000;
     }
 
     nav ul {
@@ -542,6 +543,7 @@ textarea {
         display: grid;
         grid-template-columns: auto auto;
         justify-content: center;
+        z-index: -1;
     }
 
     #portfolio .stacked-title {
