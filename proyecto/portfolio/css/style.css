@@ -259,9 +259,10 @@ nav {
 
 .slide-text {
     color: #f2f2f2;
-    font-size: small;
     padding: 1em;
-    margin: auto;
+    font-size: small;
+    text-align: left;
+    padding-left: 0;
 }
 
 /* Slideshow buttons */
@@ -562,6 +563,15 @@ textarea {
 
     .slide img {
         width: 75%;
+    }
+
+    .slide-text {
+        margin-left: 5em;
+    }
+
+    .slide-number {
+        margin-top: -0.5em;
+        font-size: small;
     }
 
     .slide-button {
