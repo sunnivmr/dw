@@ -635,7 +635,8 @@ textarea {
 
     /* Home */
     #home .stacked-title img {
-        width: 500px;
+        margin-top: -1.5em;
+        width: 550px;
     }
 
     #home .stacked-title h2 {
