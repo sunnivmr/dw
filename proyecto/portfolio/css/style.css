@@ -598,7 +598,23 @@ textarea {
 
     /* Contact */
     #contact {
+        position: absolute;
         display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        z-index: -1;
+    }
+
+    #contact .stacked-title {
+        height: 100px;
+        top: 15em;
+        left: -2em;
+    }
+
+    #contact .form {
+        top: 9em;
+        left: -5em;
+        margin: 0;
     }
 
     #portfolio .stacked-title,
@@ -610,12 +626,4 @@ textarea {
 }
 
 /* Big desktop version */
-@media only screen and (min-width: 1000px) {
-
-    #portfolio .stacked-title,
-    #contact .stacked-title {
-        transform: rotate(-90deg);
-    }
-
-
-}
+@media only screen and (min-width: 1000px) {}
