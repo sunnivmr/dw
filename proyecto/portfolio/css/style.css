@@ -343,6 +343,11 @@ textarea {
     height: 100px;
 }
 
+::placeholder {
+    font-style: italic;
+    opacity: 0.5;
+}
+
 #popup {
     display: none;
     position: absolute;
