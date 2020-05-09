@@ -510,13 +510,7 @@ textarea {
 
     /* About */
     #about {
-        width: 65%;
-        margin: auto;
-    }
-
-    #about-grid {
         top: 12em;
-        margin: auto;
         position: absolute;
         display: grid;
         grid-gap: 2em;
