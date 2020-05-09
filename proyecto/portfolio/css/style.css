@@ -564,11 +564,17 @@ textarea {
         left: -2em;
     }
 
+    #portfolio .stacked-title h2 {
+        top: 0.9em;
+        font-size: 80px;
+    }
+
+
     .slideshow {
         top: 9em;
         left: -5em;
-        height: 500px;
-        width: 500px;
+        height: 450px;
+        width: 450px;
         margin: 0;
     }
 
@@ -586,18 +592,18 @@ textarea {
     }
 
     .slide-button {
-        top: 40%;
-        width: 75px;
-        height: 75px;
+        top: 43%;
+        width: 70px;
+        height: 70px;
         transform: translateY(-30px);
     }
 
     #next {
-        right: -0.5em;
+        right: -0.6em;
     }
 
     #prev {
-        left: -0.5em;
+        left: -0.6em;
     }
 
 
@@ -653,8 +659,20 @@ textarea {
     }
 
     #portfolio .stacked-title h2 {
-        font-size: 115px;
+        font-size: 90px;
     }
+
+    .slideshow {
+        width: 500px;
+        height: 500px;
+    }
+
+    .slide-button {
+        top: 43%;
+        width: 75px;
+        height: 75px;
+    }
+
 
     /* Contact */
     #contact .stacked-title {
