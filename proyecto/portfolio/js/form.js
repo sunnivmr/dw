@@ -3,7 +3,8 @@ function sendMessage() {
     console.log("Message sent");
 }
 
-function closePopUp() {
+function closePopup() {
     document.getElementById("popup").style.display = "none";
     console.log("Closed popup");
+    location.reload();
 }

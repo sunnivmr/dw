@@ -356,7 +356,7 @@ textarea {
 #popup {
     display: none;
     position: absolute;
-    top: 80%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 15px;
@@ -676,6 +676,10 @@ textarea {
         position: relative;
         top: 9em;
         left: -5em;
+    }
+
+    #popup {
+        top: 80%;
     }
 
     #portfolio .stacked-title,
