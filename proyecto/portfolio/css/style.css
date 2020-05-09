@@ -565,8 +565,8 @@ textarea {
     }
 
     #portfolio .stacked-title h2 {
-        top: 0.9em;
-        font-size: 80px;
+        top: 1em;
+        font-size: 85px;
     }
 
 
@@ -651,7 +651,7 @@ textarea {
 
     /* Portfolio */
     #portfolio .stacked-title {
-        left: -4em;
+        left: -3em;
     }
 
     #portfolio .stacked-title img {
@@ -659,7 +659,7 @@ textarea {
     }
 
     #portfolio .stacked-title h2 {
-        font-size: 90px;
+        font-size: 100px;
     }
 
     .slideshow {
