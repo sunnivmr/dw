@@ -573,7 +573,7 @@ textarea {
 
     #portfolio .stacked-title {
         height: 100px;
-        top: 15em;
+        top: 19em;
         left: -2em;
     }
 
@@ -589,7 +589,7 @@ textarea {
 
 
     .slideshow {
-        top: 8em;
+        top: 11em;
         left: -5em;
         height: 450px;
         width: 450px;
@@ -675,20 +675,17 @@ textarea {
     /* Portfolio */
     #portfolio .stacked-title {
         left: -4em;
+        width: 410px;
     }
 
     #portfolio .stacked-title h2 {
         font-size: 120px;
     }
 
-    #portfolio .stacked-title {
-        width: 410px;
-    }
-
     .slideshow {
-        top: 7em;
-        width: 500px;
-        height: 500px;
+        top: 10em;
+        width: 475px;
+        height: 475px;
     }
 
     .slide-button {
