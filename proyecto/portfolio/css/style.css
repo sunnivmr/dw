@@ -54,7 +54,7 @@ a {
 }
 
 .stacked-title h2 {
-    font-size: 60px;
+    font-size: 80px;
     position: absolute;
     font-weight: 100;
     margin: auto;
@@ -217,9 +217,6 @@ nav {
 
 /* Portfolio */
 
-#portfolio h2 {
-    font-size: 75px;
-}
 
 .slideshow {
     width: 60%;
@@ -387,7 +384,7 @@ textarea {
     }
 
     .stacked-title h2 {
-        font-size: 80px;
+        font-size: 100px;
     }
 
     .text {
