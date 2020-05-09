@@ -187,7 +187,7 @@ nav {
 
 /* About */
 #about-title {
-    width: 300px;
+    width: 260px;
 }
 
 #about .stacked-title div {
@@ -195,9 +195,8 @@ nav {
     height: 240px;
 }
 
-#about div h2 {
-    margin-top: 0.1em;
-    font-size: 80px;
+#about .stacked-title h2 {
+    font-size: 85px;
 }
 
 #about .text {
@@ -397,18 +396,13 @@ textarea {
         width: 300px;
     }
 
-    #about .stacked-title div {
-        width: 420px;
-        height: 240px;
-    }
-
     #about .image {
         width: 60%;
     }
 
-    #about div h2 {
+    #about .stacked-title h2 {
         margin-top: 0.1em;
-        font-size: 80px;
+        font-size: 100px;
     }
 }
 
@@ -516,34 +510,56 @@ textarea {
 
     /* About */
     #about {
-        width: 50%;
+        width: 65%;
         margin: auto;
     }
 
     #about-grid {
-        top: 7em;
+        top: 12em;
+        margin: auto;
         position: absolute;
         display: grid;
+        grid-gap: 2em;
         grid-template-columns: auto auto;
-        justify-content: start;
-        grid-gap: 1.5em;
-        grid-template rows: auto auto;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        z-index: -1;
     }
 
     #about .stacked-title {
-        grid-column: 1 / 3;
-        justify-self: left;
+        margin: 0 2em 5em 0;
+        grid-column: 1;
+        grid-row: 1;
     }
 
-    #about .stacked-title img {}
+
+    #about .stacked-title img {
+        width: 270px;
+    }
+
+    #about .stacked-title h2 {
+        font-size: 120px;
+        top: 0.4em;
+        left: 0.2em;
+    }
 
     #about .text {
-        grid-colum: 1 / span 1;
+        grid-column: 1;
+        grid-row: 2;
+        padding: 0;
+        margin: 0;
         max-width: 300px;
     }
 
     #about .image {
+        grid-row: 1 / span 2;
         width: 250px;
+        margin: 0;
+        align-self: end;
+    }
+
+    #about .image img {
+        object-fit: cover;
     }
 
     /* Portfolio */
