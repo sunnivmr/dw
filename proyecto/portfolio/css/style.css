@@ -571,7 +571,7 @@ textarea {
 
 
     .slideshow {
-        top: 9em;
+        top: 8em;
         left: -5em;
         height: 450px;
         width: 450px;
@@ -663,6 +663,7 @@ textarea {
     }
 
     .slideshow {
+        top: 7em;
         width: 500px;
         height: 500px;
     }
