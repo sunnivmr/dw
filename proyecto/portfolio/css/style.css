@@ -510,7 +510,7 @@ textarea {
 
     /* About */
     #about {
-        top: 12em;
+        top: 10em;
         position: absolute;
         display: grid;
         grid-gap: 2em;
@@ -547,7 +547,7 @@ textarea {
 
     #about .image {
         grid-row: 1 / span 2;
-        width: 250px;
+        width: 275px;
         margin: 0;
         align-self: end;
     }
@@ -673,6 +673,11 @@ textarea {
 
     #home .stacked-title h2 {
         font-size: 130px;
+    }
+
+    /* About */
+    #about img {
+        width: 300px;
     }
 
     /* Portfolio */
