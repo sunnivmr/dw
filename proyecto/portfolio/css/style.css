@@ -106,6 +106,14 @@ nav {
     display: none;
 }
 
+#line {
+    display: inline-block;
+    background-color: #540A90;
+    margin: 0 0 0.3em 0.5em;
+    width: 27px;
+    height: 1px;
+}
+
 /* Sidenav */
 .sidenav {
     background-color: #B5B1E3;
@@ -183,6 +191,10 @@ nav {
 }
 
 /* Home */
+#home .stacked-title h2 {
+    top: 1em;
+    font-size: 70px;
+}
 
 
 /* About */
@@ -390,6 +402,11 @@ textarea {
         width: 60%;
     }
 
+    /* Home */
+    #home .stacked-title h2 {
+        font-size: 80px;
+    }
+
     /* About */
 
     #about-title {
@@ -425,7 +442,7 @@ textarea {
     nav {
         display: block;
         margin-right: 2.5em;
-        font-size: 1em;
+        font-size: 0.9em;
         text-align: right;
         float: right;
         padding: 2em 0;
@@ -434,12 +451,12 @@ textarea {
 
     nav ul {
         list-style: none;
-        padding-left: 2em;
     }
 
     nav ul li {
+        margin-right: 2em;
         margin-top: 0.5em;
-        margin-bottom: 1.5em;
+        margin-bottom: 2em;
     }
 
     nav ul li a {
@@ -487,6 +504,15 @@ textarea {
 
 
     /* Home */
+    #home .stacked-title {
+        top: -2.5em;
+    }
+
+    #home .stacked-title h2 {
+        top: 0.85em;
+    }
+
+
     #home {
         display: grid;
     }
@@ -666,6 +692,11 @@ textarea {
     }
 
     /* Home */
+    #home .stacked-title {
+        top: -4.5em;
+    }
+
+
     #home .stacked-title img {
         margin-top: -1.5em;
         width: 550px;
@@ -673,6 +704,7 @@ textarea {
 
     #home .stacked-title h2 {
         font-size: 130px;
+        top: 0.55em;
     }
 
     /* About */

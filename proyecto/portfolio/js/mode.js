@@ -13,7 +13,7 @@ function setMode() {
     var light = "#B5B1E3";
 
     var txtAccentDark = "#1D97EF";
-    var txtAccentLight = "#F3F5F7";
+    var txtAccentLight = "#540A90";
 
     var txtDark = "#9DD6FF";
     var txtLight = "#F3F5F7";
@@ -91,6 +91,13 @@ function setMode() {
 
     // Change text-colors
     document.body.style.color = text;
+
+
+    // Change color of line in navbar web
+    var lineID = document.getElementById("line");
+    if (lineID) {
+        lineID.style.backgroundColor = accent;
+    }
 
 
     // Change link-colors
