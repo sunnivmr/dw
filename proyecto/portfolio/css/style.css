@@ -564,9 +564,14 @@ textarea {
         left: -2em;
     }
 
+    #portfolio .stacked-title img {
+        position: relative;
+        left: 2.5em;
+    }
+
     #portfolio .stacked-title h2 {
-        top: 1em;
-        font-size: 85px;
+        top: 0.6em;
+        font-size: 115px;
     }
 
 
@@ -656,15 +661,15 @@ textarea {
 
     /* Portfolio */
     #portfolio .stacked-title {
-        left: -3em;
-    }
-
-    #portfolio .stacked-title img {
-        width: 450px;
+        left: -4em;
     }
 
     #portfolio .stacked-title h2 {
-        font-size: 100px;
+        font-size: 120px;
+    }
+
+    #portfolio .stacked-title {
+        width: 410px;
     }
 
     .slideshow {
