@@ -551,7 +551,7 @@ textarea {
 
     #about .stacked-title {
         justify-self: start;
-        margin: 0 1em 3em 0;
+        margin: 0 1em 3.2em 0;
         grid-column: 1;
         grid-row: 1;
     }
@@ -568,6 +568,7 @@ textarea {
     }
 
     #about .text {
+        font-size: 12px;
         grid-column: 1;
         grid-row: 2;
         padding: 0;
@@ -578,11 +579,13 @@ textarea {
     #about .image {
         grid-row: 1 / span 2;
         width: 275px;
+        height: 350px;
         margin: 0;
         align-self: end;
     }
 
     #about .image img {
+        height: 100%;
         object-fit: cover;
     }
 
@@ -694,11 +697,6 @@ textarea {
 /* Big desktop version */
 @media only screen and (min-width: 1000px) {
 
-    nav {
-        margin-right: 4.5em;
-        padding: 2.5em 0;
-    }
-
     /* Home */
     #home .stacked-title {
         top: -4.5em;
@@ -716,12 +714,13 @@ textarea {
     }
 
     /* About */
-    #about img {
+    #about .image {
         width: 300px;
+        height: 350px;
     }
 
     #about .stacked-title {
-        margin-bottom: 3em;
+        margin-bottom: 3.5em;
     }
 
     #about .stacked-title img {
