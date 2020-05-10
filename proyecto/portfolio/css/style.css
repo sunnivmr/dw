@@ -770,4 +770,19 @@ textarea {
     #contact .stacked-title h2 {
         font-size: 135px;
     }
+
+    #contact form {
+        margin-top: 2.5em;
+    }
+
+    #contact form > input,
+    textarea {
+        height: 35px;
+        border: none;
+    }
+
+    #contact form > #message {
+        height: 150px;
+    }
+
 }
