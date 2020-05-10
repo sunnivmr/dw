@@ -715,7 +715,7 @@ textarea {
 
     /* About */
     #about .image {
-        width: 300px;
+        width: 350px;
         height: 350px;
     }
 
@@ -728,11 +728,12 @@ textarea {
     }
 
     #about .stacked-title h2 {
-        font-size: 110px;
+        font-size: 115px;
     }
 
     #about .text {
-        max-width: 300px;
+        max-width: 310px;
+        font-size: 12.5px;
     }
 
     /* Portfolio */
