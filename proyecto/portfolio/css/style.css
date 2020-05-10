@@ -550,18 +550,19 @@ textarea {
     }
 
     #about .stacked-title {
-        margin: 0 2em 5em 0;
+        justify-self: start;
+        margin: 0 1em 3em 0;
         grid-column: 1;
         grid-row: 1;
     }
 
 
     #about .stacked-title img {
-        width: 270px;
+        width: 220px;
     }
 
     #about .stacked-title h2 {
-        font-size: 120px;
+        font-size: 100px;
         top: 0.4em;
         left: 0.2em;
     }
@@ -571,7 +572,7 @@ textarea {
         grid-row: 2;
         padding: 0;
         margin: 0;
-        max-width: 300px;
+        max-width: 250px;
     }
 
     #about .image {
@@ -717,6 +718,22 @@ textarea {
     /* About */
     #about img {
         width: 300px;
+    }
+
+    #about .stacked-title {
+        margin-bottom: 3em;
+    }
+
+    #about .stacked-title img {
+        width: 250px;
+    }
+
+    #about .stacked-title h2 {
+        font-size: 110px;
+    }
+
+    #about .text {
+        max-width: 300px;
     }
 
     /* Portfolio */
