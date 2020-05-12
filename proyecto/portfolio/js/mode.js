@@ -23,19 +23,45 @@ function setMode() {
     var txtDark = "#9DD6FF";
     var txtLight = "#F3F5F7";
 
-    // Logos and switches
-    var logoLight = "url('/proyecto/portfolio/img/icons/logo.svg')";
-    var logoDark = "url('/proyecto/portfolio/img/icons/logo_dark.svg')";
+    // Check which page is loaded and change relative urls to image sources
+    var loadedPath = window.location.pathname;
+    var loadedPage = loadedPath.substring(loadedPath.lastIndexOf('/') + 1);
 
-    var switchLight = "url('/proyecto/portfolio/img/icons/mode_switch.svg')";
-    var switchDark = "url('/proyecto/portfolio/img/icons/mode_switch_dark.svg')";
+    // Relative paths to index.html
+    if (loadedPage == "index.html") {
 
-    // Open/close buttons on side nav
-    var openLight = "url('/proyecto/portfolio/img/icons/nav_open.svg')";
-    var openDark = "url('/proyecto/portfolio/img/icons/nav_open_dark.svg')";
+        // Logos and switches 
+        var logoLight = "url('img/icons/logo.svg')";
+        var logoDark = "url('img/icons/logo_dark.svg')";
 
-    var closeLight = "url('/proyecto/portfolio/img/icons/nav_close.svg')";
-    var closeDark = "url('/proyecto/portfolio/img/icons/nav_close_dark.svg')";
+        var switchLight = "url('img/icons/mode_switch.svg')";
+        var switchDark = "url('img/icons/mode_switch_dark.svg')";
+
+        // Open/close buttons on side nav
+        var openLight = "url('img/icons/nav_open.svg')";
+        var openDark = "url('img/icons/nav_open_dark.svg')";
+
+        var closeLight = "url('img/icons/nav_close.svg')";
+        var closeDark = "url('img/icons/nav_close_dark.svg')";
+
+    }
+    // Relative paths to all subpages
+    else {
+        // Logos and switches
+        var logoLight = "url('../img/icons/logo.svg')";
+        var logoDark = "url('../img/icons/logo_dark.svg')";
+
+        var switchLight = "url('../img/icons/mode_switch.svg')";
+        var switchDark = "url('../img/icons/mode_switch_dark.svg')";
+
+        // Open/close buttons on side nav
+        var openLight = "url('../img/icons/nav_open.svg')";
+        var openDark = "url('../img/icons/nav_open_dark.svg')";
+
+        var closeLight = "url('../img/icons/nav_close.svg')";
+        var closeDark = "url('../img/icons/nav_close_dark.svg')";
+    }
+
 
     // Portfolio buttons
     var prevLight = '../img/icons/arrow_left.svg';
