@@ -4,6 +4,11 @@ var mode = localStorage.getItem("mode");
 // Function for setting correct mode on load of web page
 function setMode() {
 
+    // Check if mode is null, if it is, set it to light
+    if (mode == null) {
+        mode = "light";
+    }
+
     console.log("Current mode:", mode);
 
     var buttons = document.getElementsByClassName("button");
