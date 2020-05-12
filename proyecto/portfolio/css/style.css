@@ -701,46 +701,58 @@ textarea {
 
     /* Home */
     #home .stacked-title {
-        top: -4.5em;
+        top: -4em;
     }
 
-
     #home .stacked-title img {
-        margin-top: -1.5em;
+        margin-top: 0em;
         width: 550px;
     }
 
     #home .stacked-title h2 {
         font-size: 130px;
-        top: 0.55em;
+        top: 0.7em;
+    }
+
+    #home .text {
+        bottom: 3em;
     }
 
     /* About */
+    #about {
+        top: 25%;
+        grid-gap: 3em;
+    }
+
     #about .image {
         width: 350px;
-        height: 350px;
+        height: 100%;
     }
 
     #about .stacked-title {
-        margin-bottom: 3.5em;
+        margin-bottom: 6em;
     }
 
     #about .stacked-title img {
-        width: 250px;
+        width: 275px;
     }
 
     #about .stacked-title h2 {
-        font-size: 115px;
+        font-size: 130px;
     }
 
     #about .text {
-        max-width: 310px;
+        max-width: 350px;
         font-size: 12.5px;
     }
 
     /* Portfolio */
+    #portfolio {
+        top: 3%;
+    }
+
     #portfolio .stacked-title {
-        left: -4em;
+        left: -5em;
         width: 410px;
     }
 
@@ -750,8 +762,8 @@ textarea {
 
     .slideshow {
         top: 9.5em;
-        width: 475px;
-        height: 475px;
+        width: 500px;
+        height: 500px;
     }
 
     .slide-button {
@@ -762,8 +774,12 @@ textarea {
 
 
     /* Contact */
+    #contact {
+        top: 5%;
+    }
+
     #contact .stacked-title {
-        left: 3em;
+        left: 0;
     }
 
     #contact .stacked-title img {
@@ -775,7 +791,8 @@ textarea {
     }
 
     #contact form {
-        margin-top: 2.5em;
+        margin-top: 3em;
+        width: 60%;
     }
 
     #contact form > input,
@@ -785,7 +802,7 @@ textarea {
     }
 
     #contact form > #message {
-        height: 150px;
+        height: 200px;
     }
 
 }
