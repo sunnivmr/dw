@@ -309,6 +309,7 @@ nav {
 
 #contact form > input,
 textarea {
+    font-family: 'Open Sans', Helvetica, sans-serif;
     display: inline-block;
     margin: 0.5em 0 1em;
     width: 100%;
