@@ -375,7 +375,7 @@ body {
     font-size: 13px;
     line-height: 1.42857;
     color: #777777;
-    background-color: #fff;
+    background-color: #FEF1FC;
 }
 
 input,
@@ -8308,7 +8308,7 @@ header .row #header_logo {
 #center_column .page_product_box h3 {
     color: #555454;
     text-transform: uppercase;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Avenir", sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 20px;
@@ -8871,7 +8871,7 @@ table.table_block td {
 }
 
 .price.product-price {
-    font: 600 21px/26px "Open Sans", sans-serif;
+    font: 600 21px/26px "Avenir", sans-serif;
     color: #333;
 }
 
@@ -8891,14 +8891,14 @@ table.table_block td {
 .price-percent-reduction {
     background: #f13340;
     border: 1px solid #d02a2c;
-    font: 600 21px/24px "Open Sans", sans-serif;
+    font: 600 21px/24px "Avenir", sans-serif;
     color: #fff;
     padding: 0 5px 0 3px;
     display: inline-block;
 }
 
 .price-percent-reduction.small {
-    font: 700 14px/17px Arial, Helvetica, sans-serif;
+    font: 700 14px/17px Avenir, Open Sans, sans-serif;
     padding: 1px 6px;
 }
 
@@ -8922,7 +8922,7 @@ table.table_block td {
 }
 
 .new-label {
-    font: 700 14px/12px Arial, Helvetica, sans-serif;
+    font: 700 14px/12px Avenir, Open Sans, sans-serif;
     color: #fff;
     background: #6ad4ff;
     text-transform: uppercase;
@@ -8973,7 +8973,7 @@ table.table_block td {
 }
 
 .sale-label {
-    font: 700 14px/12px Arial, Helvetica, sans-serif;
+    font: 700 14px/12px Avenir, Open Sans, sans-serif;
     color: #fff;
     background: #f13340;
     text-transform: uppercase;
@@ -9143,7 +9143,7 @@ table.table_block td {
 }
 
 #home-page-tabs > li a {
-    font: 600 21px/24px "Open Sans", sans-serif;
+    font: 600 21px/24px "Avenir", sans-serif;
     color: #555454;
     text-transform: uppercase;
     border: none;
@@ -9209,7 +9209,7 @@ table.table_block td {
 
 .block .title_block,
 .block h4 {
-    font: 600 18px/22px "Open Sans", sans-serif;
+    font: 600 18px/22px "Avenir", sans-serif;
     color: #555454;
     background: #f6f6f6;
     border-top: 5px solid #333;
@@ -9359,12 +9359,12 @@ table.table_block td {
 }
 
 .block .products-block .price-percent-reduction {
-    font: 700 14px/17px Arial, Helvetica, sans-serif;
+    font: 700 14px/17px Avenir, Open Sans, sans-serif;
     padding: 1px 6px;
 }
 
 .page-heading {
-    font: 600 18px/22px "Open Sans", sans-serif;
+    font: 600 18px/22px "Avenir", sans-serif;
     color: #555454;
     text-transform: uppercase;
     padding: 0px 0px 17px 0px;
@@ -9374,7 +9374,7 @@ table.table_block td {
 }
 
 .page-heading span.heading-counter {
-    font: bold 13px/22px Arial, Helvetica, sans-serif;
+    font: bold 13px/22px Avenir, Open Sans, sans-serif;
     float: right;
     color: #333;
     text-transform: none;
@@ -9403,7 +9403,7 @@ table.table_block td {
 }
 
 .page-subheading {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Avenir", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     color: #555454;
@@ -9417,7 +9417,7 @@ table.table_block td {
 h3.page-product-heading {
     color: #555454;
     text-transform: uppercase;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Avenir", sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 20px;
@@ -10300,7 +10300,7 @@ div.star a:hover {
 }
 
 .footer-container #footer h4 {
-    font: 600 18px/22px "Open Sans", sans-serif;
+    font: 600 18px/22px "Avenir", sans-serif;
     color: #fff;
     margin: 0 0 13px 0;
     cursor: pointer;
@@ -10724,13 +10724,13 @@ a.price_discount_delete:hover {
 }
 
 #cart_summary tfoot td.total_price_container span {
-    font: 600 18px/22px "Open Sans", sans-serif;
+    font: 600 18px/22px "Avenir", sans-serif;
     color: #555454;
     text-transform: uppercase;
 }
 
 #cart_summary tfoot td#total_price_container {
-    font: 600 21px/25px "Open Sans", sans-serif;
+    font: 600 21px/25px "Avenir", sans-serif;
     color: #333;
     background: #fff;
 }
@@ -10880,7 +10880,7 @@ a.price_discount_delete:hover {
 }
 
 .cart_voucher h4 {
-    font: 600 18px/22px "Open Sans", sans-serif;
+    font: 600 18px/22px "Avenir", sans-serif;
     color: #555454;
     text-transform: uppercase;
     padding: 7px 0 10px 0;
@@ -11459,7 +11459,7 @@ p.cheque-indent {
     opacity: 1;
     line-height: inherit;
     text-transform: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Avenir, Open Sans, sans-serif;
 }
 
 #instant_search_results a.close:hover {
@@ -11702,14 +11702,14 @@ table.discount i.icon-remove {
 }
 
 #pagenotfound .pagenotfound h1 {
-    font: 600 28px/34px "Open Sans", sans-serif;
+    font: 600 28px/34px "Avenir", sans-serif;
     color: #333;
     text-transform: uppercase;
     margin-bottom: 7px;
 }
 
 #pagenotfound .pagenotfound p {
-    font: 600 16px/20px "Open Sans", sans-serif;
+    font: 600 16px/20px "Avenir", sans-serif;
     color: #555454;
     text-transform: uppercase;
     border-bottom: 1px solid #d6d4d4;
@@ -11995,7 +11995,7 @@ div.star.star_hover:after {
 #facebook_block h4 {
     padding: 35px 0 0 0;
     margin: 0 0 12px 0;
-    font: 300 21px/25px "Open Sans", sans-serif;
+    font: 300 21px/25px "Avenir", sans-serif;
     color: #6f6d6d;
 }
 
@@ -12096,7 +12096,7 @@ div.star.star_hover:after {
 
 #cmsinfo_block h3 {
     margin: 0 0 5px 0;
-    font: 300 21px/25px "Open Sans", sans-serif;
+    font: 300 21px/25px "Avenir", sans-serif;
     color: #6f6d6d;
 }
 
