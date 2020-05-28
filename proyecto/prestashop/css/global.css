@@ -10246,12 +10246,13 @@ div.star a:hover {
 }
 
 .footer-container {
-    background-color: #333;
+    background-color: #BE92DD;
+    font-weight: normal;
 }
 
 @media (min-width: 768px) {
     .footer-container {
-        background: url(../img/footer-bg.png) repeat-x #333;
+        background-color: #6C578C;
     }
 }
 
@@ -10260,7 +10261,7 @@ div.star a:hover {
 }
 
 .footer-container #footer {
-    color: #777777;
+    color: #FEF1FC;
 }
 
 .footer-container #footer .row {
@@ -10282,11 +10283,11 @@ div.star a:hover {
 }
 
 .footer-container #footer a {
-    color: #777777;
+    color: #FEF1FC;
 }
 
 .footer-container #footer a:hover {
-    color: #fff;
+    color: #FEF1FC;
 }
 
 .footer-container #footer h4 {
@@ -10327,11 +10328,10 @@ div.star a:hover {
 
 .footer-container #footer ul li a {
     font-weight: bold;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.4);
 }
 
 .footer-container #footer #block_contact_infos {
-    border-left: 1px solid #515151;
+    border-left: 1px solid #fff;
 }
 
 @media (max-width: 767px) {
@@ -10368,7 +10368,7 @@ div.star a:hover {
     text-align: center;
     padding-right: 12px;
     float: left;
-    color: #908f8f;
+    color: #fff;
 }
 
 .footer-container #footer .blockcategories_footer {
@@ -10413,7 +10413,7 @@ div.star a:hover {
 
 .footer-container #footer #social_block ul li a {
     display: inline-block;
-    color: #908f8f;
+    color: white;
     font-size: 28px;
 }
 
@@ -10496,7 +10496,7 @@ div.star a:hover {
 
 .footer-container #footer .bottom-footer div {
     padding: 15px 0 0 0;
-    border-top: 1px solid #515151;
+    border-top: 1px solid #FEF1FC;
     width: 100%;
 }
 
@@ -10571,7 +10571,7 @@ div.star a:hover {
 }
 
 .cart_navigation .button-exclusive i {
-    color: #777777;
+    color: blue;
     margin-right: 8px;
 }
 
