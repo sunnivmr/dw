@@ -912,6 +912,10 @@ header .row #header_logo,
     padding-right: 15px;
 }
 
+#header_logo {
+    margin: 0 auto;
+}
+
 .col-xs-1,
 .col-xs-2,
 .col-xs-3,
@@ -983,7 +987,6 @@ header .row #header_logo,
     .col-sm-2,
     .col-sm-3,
     .col-sm-4,
-    header .row #header_logo,
     .col-sm-5,
     .col-sm-6,
     .col-sm-7,
@@ -992,6 +995,10 @@ header .row #header_logo,
     .col-sm-10,
     .col-sm-11 {
         float: left;
+    }
+
+    header .row#header_logo {
+        margin: auto;
     }
 
     .col-sm-1 {
@@ -8216,7 +8223,7 @@ textarea {
 }
 
 .columns-container {
-    background: #FCF5FB;
+    background: #F4EDF3;
 }
 
 #columns {
@@ -8247,7 +8254,7 @@ header .banner .row {
 }
 
 header .nav {
-    background: #BE92DD;
+    background-color: #BE92DD;
 }
 
 header .nav .row {
@@ -8579,7 +8586,6 @@ span.exclusive {
     display: block;
     padding: 10px 10px 10px 14px;
     border: none;
-    border: none;
     padding: 7px 14px;
     display: block;
     color: #fff;
@@ -8620,13 +8626,11 @@ span.exclusive {
 }
 
 .button.button-medium:hover {
-    background: #FC2D8B;
     font-style: oblique;
 }
 
 
 .button.button-medium.exclusive:hover {
-    background: #FC2D8B;
     font-style: oblique;
 }
 
@@ -10574,7 +10578,7 @@ div.star a:hover {
 }
 
 .cart_navigation .button-exclusive i {
-    color: blue;
+    color: #333;
     margin-right: 8px;
 }
 

@@ -80,7 +80,7 @@
 
 .sf-menu > li > a {
     font: 600 16px/20px "Avenir", sans-serif;
-    color: #4C2B70;
+    color: #A67ACC;
     opacity: 0.75;
     display: block;
     padding: 17px 20px;
@@ -259,7 +259,7 @@ ul.sf-menu li li li.sfHover ul {
     .cat-title {
         display: block;
         font: 600 16px/20px "Avenir", sans-serif;
-        color: #484848;
+        color: #BE92DD;
         display: block;
         padding: 17px 20px;
         background: #f6f6f6;
@@ -267,12 +267,13 @@ ul.sf-menu li li li.sfHover ul {
     }
 
     .cat-title:hover {
-        background: #333;
+        background: #BE92DD;
         color: #fff;
     }
 
     .cat-title:after {
         display: block;
+        color: #BE92DD;
         font-family: "FontAwesome";
         content: "\f067";
         position: absolute;
@@ -283,6 +284,7 @@ ul.sf-menu li li li.sfHover ul {
 
     .cat-title.active:after {
         content: "\f068";
+        color: #BE92DD;
     }
 }
 

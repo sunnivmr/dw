@@ -19,7 +19,7 @@
 
 .header_user_info a:hover,
 .header_user_info a.active {
-    background: #A67ACC;
+    font-style: oblique;
 }
 
 /*# sourceMappingURL=blockuserinfo.css.map */

@@ -56,7 +56,7 @@
 
 #contact-link a:hover,
 #contact-link a.active {
-    background: #A67ACC;
+    font-style: oblique;
 }
 
 @media (max-width: 767px) {
