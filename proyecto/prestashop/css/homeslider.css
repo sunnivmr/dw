@@ -158,8 +158,8 @@
 }
 
 #homepage-slider .bx-wrapper .bx-controls-direction a:hover:before {
-    background: #FF4D97;
-    opacity: 0.5;
+    background: #fff;
+    opacity: 0.33;
 }
 
 #homepage-slider .bx-wrapper .bx-prev {
