@@ -8924,10 +8924,9 @@ table.table_block td {
 .new-label {
     font: 700 14px/12px Avenir, Open Sans, sans-serif;
     color: #fff;
-    background: #6ad4ff;
+    background: #CEB0E1;
     text-transform: uppercase;
     padding: 9px 0 7px;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.24);
     width: 130px;
     text-align: center;
     display: block;
@@ -8948,7 +8947,7 @@ table.table_block td {
     height: 0px;
     border-style: solid;
     border-width: 4px 4px 0px 4px;
-    border-color: #21a3d8 transparent transparent transparent;
+    border-color: #BE92DD transparent transparent transparent;
     content: ".";
     text-indent: -5000px;
     -webkit-transform: rotate(225deg);
@@ -8964,7 +8963,7 @@ table.table_block td {
     height: 0px;
     border-style: solid;
     border-width: 4px 4px 0px 4px;
-    border-color: #21a3d8 transparent transparent transparent;
+    border-color: #BE92DD transparent transparent transparent;
     content: ".";
     text-indent: -5000px;
     -webkit-transform: rotate(135deg);
