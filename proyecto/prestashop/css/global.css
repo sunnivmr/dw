@@ -8716,55 +8716,41 @@ span.exclusive {
 .button.exclusive-medium span:hover {}
 
 .button.ajax_add_to_cart_button {
-    font: 700 17px/21px Avenir, Open Sans, sans-serif;
+    font: normal small Avenir, Open Sans, sans-serif;
     color: #fff;
-    font-style: oblique;
     padding: 0;
     border: none;
-    border-radius: 16px;
 }
 
 .button.ajax_add_to_cart_button span {
     border: none;
-    padding: 10px 14px;
+    padding: 7px 14px;
     display: block;
-    background: #FF4D97;
-}
-
-.button.ajax_add_to_cart_button:hover {}
-
-.button.ajax_add_to_cart_button:hover span {
-    filter: none;
-    background: #FC2D8B;
-}
-
-.button.lnk_view {
-    font: 700 17px/21px Avenir, Open Sans, sans-serif;
-    color: #333;
-    text-shadow: 1px 1px white;
-    padding: 0;
-    border: none;
+    background: #FC72A4;
     border-radius: 16px;
 }
 
+.button.ajax_add_to_cart_button:hover {
+    font-style: oblique;
+}
+
+.button.lnk_view {
+    font: normal small Avenir, Open Sans, sans-serif;
+    color: #fff;
+    padding: 0;
+    border: none;
+}
+
 .button.lnk_view span {
-    border: 1px solid;
-    border-color: #fff;
-    padding: 10px 14px;
+    border: none;
+    padding: 7px 14px;
     display: block;
-    background: #f7f7f7;
+    background: #BE92DD;
+    border-radius: 16px;
 }
 
-.button.lnk_view:hover {}
-
-.button.lnk_view:hover span {
-    filter: none;
-    background: #e7e7e7;
-}
-
-.button.lnk_view i.left {
-    padding-right: 8px;
-    color: #777777;
+.button.lnk_view:hover {
+    font-style: oblique;
 }
 
 .form-control {
@@ -8872,7 +8858,7 @@ table.table_block td {
 }
 
 .price.product-price {
-    font: 600 21px/26px "Avenir", sans-serif;
+    font: 16px/20px "Avenir", sans-serif;
     color: #333;
 }
 
@@ -8924,8 +8910,7 @@ table.table_block td {
 
 .new-label {
     font: 700 14px/12px Avenir, Open Sans, sans-serif;
-    color: #FCCC44;
-    background: #FC72A4;
+    color: #FC72A4;
     text-transform: uppercase;
     font-style: oblique;
     padding: 9px 0 7px;
@@ -8936,11 +8921,10 @@ table.table_block td {
     left: -33px;
     top: 16px;
     z-index: 1;
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    opacity: 0.5;
 }
 
+/*
 .new-label:before {
     position: absolute;
     bottom: -3px;
@@ -8972,6 +8956,7 @@ table.table_block td {
     -ms-transform: rotate(135deg);
     transform: rotate(135deg);
 }
+*/
 
 .sale-label {
     font: 700 14px/12px Avenir, Open Sans, sans-serif;
