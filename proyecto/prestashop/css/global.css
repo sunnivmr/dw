@@ -10252,7 +10252,8 @@ div.star a:hover {
 
 @media (min-width: 768px) {
     .footer-container {
-        background-color: #6C578C;
+        background-color: #8B66B2;
+        opacity: 0.75;
     }
 }
 
