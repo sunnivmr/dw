@@ -8716,8 +8716,9 @@ span.exclusive {
 .button.exclusive-medium span:hover {}
 
 .button.ajax_add_to_cart_button {
-    font: 400 17px/21px Avenir, Open Sans, sans-serif;
+    font: 700 17px/21px Avenir, Open Sans, sans-serif;
     color: #fff;
+    font-style: oblique;
     padding: 0;
     border: none;
     border-radius: 16px;
@@ -8923,9 +8924,10 @@ table.table_block td {
 
 .new-label {
     font: 700 14px/12px Avenir, Open Sans, sans-serif;
-    color: #fff;
-    background: #CEB0E1;
+    color: #FCCC44;
+    background: #FC72A4;
     text-transform: uppercase;
+    font-style: oblique;
     padding: 9px 0 7px;
     width: 130px;
     text-align: center;
@@ -8947,7 +8949,7 @@ table.table_block td {
     height: 0px;
     border-style: solid;
     border-width: 4px 4px 0px 4px;
-    border-color: #BE92DD transparent transparent transparent;
+    border-color: #FF4D97 transparent transparent transparent;
     content: ".";
     text-indent: -5000px;
     -webkit-transform: rotate(225deg);
@@ -8963,7 +8965,7 @@ table.table_block td {
     height: 0px;
     border-style: solid;
     border-width: 4px 4px 0px 4px;
-    border-color: #BE92DD transparent transparent transparent;
+    border-color: #FF4D97 transparent transparent transparent;
     content: ".";
     text-indent: -5000px;
     -webkit-transform: rotate(135deg);
